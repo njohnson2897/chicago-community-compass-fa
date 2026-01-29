@@ -1,0 +1,3795 @@
+{
+  "food_pantries": [
+    {
+      "organization_name": "Edward G Irvin Foundation",
+      "address": "500 East 67th Street Chicago, IL 60637",
+      "contact_name": "James McMurray",
+      "phone": "312-852-6923",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "James McMurray",
+          "phone": "312-852-6923",
+          "regular_hours": [
+            "Monday 2:00 PM - 4:00 PM",
+            "Saturday 1:00 PM - 3:00 PM (2nd, 4th of Month)"
+          ]
+        },
+        {
+          "category": "Nutrition Services"
+        },
+        {
+          "category": "Older adult commodity boxes",
+          "regular_hours": [
+            "Monday 2:00 PM - 5:00 PM",
+            "Saturday 1:00 PM - 3:00 PM (2nd, 4th of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "We Do Care",
+      "address": "1538 W 69th St Chicago, IL 60636",
+      "contact_name": "Dinah Whyte",
+      "phone": "708-595-5275",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Dinah Whyte",
+          "phone": "708-595-5275",
+          "regular_hours": [
+            "Thursday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Englewood Red Shield Center",
+      "address": "845 W 69th St Chicago, IL 60621",
+      "contact_name": "Dynna Edwards",
+      "phone": "773-358-3200",
+      "website": "centralusa.salvationarmy.org/redshield/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Dynna Edwards",
+          "phone": "773-358-3200",
+          "regular_hours": [
+            "Tuesday 9:00 AM - 1:00 PM",
+            "Wednesday 9:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Beth Shalom B'nai Zaken E.H.C.",
+      "address": "6601 S Kedzie Ave Chicago, IL 60629",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "regular_hours": [
+            "Friday 1:00 PM - 3:00 PM",
+            "Sunday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Abundant Life MBC",
+      "address": "2306 W 69th St Chicago, IL 60636",
+      "contact_name": "Phallon Stephens",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Phallon Stephens",
+          "regular_hours": [
+            "Saturday 8:00 AM - 10:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Martin Temple Community Foundation",
+      "address": "6930 S Cottage Grove Ave. Chicago, IL 60637",
+      "contact_name": "Victoria Williams",
+      "phone": "773-493-8624",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Victoria Williams",
+          "phone": "773-493-8624",
+          "regular_hours": [
+            "Monday 11:30 AM - 1:30 PM"
+          ]
+        },
+        {
+          "category": "SNAP Application Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "St Moses the Black Parish",
+      "address": "331 E 71st St. Chicago, IL 60619",
+      "contact_name": "Rev. Matthew O'Donnell",
+      "phone": "773-224-1022",
+      "website": "www.stmosesparish.org",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Rev. Matthew O'Donnell",
+          "phone": "773-224-1022",
+          "regular_hours": [
+            "Tuesday 5:30 PM - 7:00 PM",
+            "Wednesday 10:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Mental Health Services"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Health and Wellness Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "C.T. Baker Performing Arts Center",
+      "address": "401 S 5th Ave Maywood, IL 60153",
+      "contact_name": "Yvonne Johnson",
+      "phone": "630-930-0517",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Yvonne Johnson",
+          "phone": "630-930-0517",
+          "regular_hours": [
+            "Saturday 8:00 AM - 10:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Back to God All Nations Church",
+      "address": "7326 S Racine Ave Chicago, IL 60636",
+      "contact_name": "Brenda Crushshon",
+      "phone": "773-224-7083",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Brenda Crushshon",
+          "phone": "773-224-7083",
+          "regular_hours": [
+            "Tuesday 9:00 AM - 11:00 AM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Windy City Community Church",
+      "address": "6131 N Newark Ave Chicago, IL 60631",
+      "contact_name": "Nancy Volpert",
+      "phone": "773-631-9222",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Nancy Volpert",
+          "phone": "773-631-9222",
+          "regular_hours": [
+            "6:00 PM - 8:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Carey Temple AME Church",
+      "address": "7157 S Greenwood Ave Chicago, IL 60619",
+      "contact_name": "Harriett Moore",
+      "phone": "773-324-7766",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Harriett Moore",
+          "phone": "773-324-7766",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "River Forest UMC",
+      "address": "1112 N 9th Ave Melrose Park, IL 60160",
+      "contact_name": "Jerry Hills",
+      "phone": "708-356-6743",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Jerry Hills"
+        }
+      ]
+    },
+    {
+      "organization_name": "Humans at Help Foundation",
+      "address": "4652 Oakton St SKOKIE, IL 60076",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Thursday 10:00 AM - 1:00 PM",
+            "Saturday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Monument of Faith Evangelistic Church",
+      "address": "2750 W Columbus Ave Chicago, IL 60652",
+      "contact_name": "Karen Caruthers",
+      "phone": "773-918-0180",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "regular_hours": [
+            "Monday 9:00 AM - 2:00 PM",
+            "Wednesday 9:00 AM - 2:00 PM",
+            "Thursday 9:00 AM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Evanston Corps Community Center",
+      "address": "1403 Sherman Ave Evanston, IL 60201",
+      "phone": "847-866-9770",
+      "website": "centralusa.salvationarmy.org/redshield/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Donna Gooden",
+          "phone": "847-866-9770",
+          "email": "donna.gooden@usc.salvationarmy.org",
+          "regular_hours": [
+            "Friday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Koinonia Ministry",
+      "address": "7541 South Halsted Street Chicago, IL 60620",
+      "contact_name": "Carolyn Hosch",
+      "phone": "773-368-2658",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "First Presbyterian Church of Evanston",
+      "address": "1427 Chicago Ave Evanston, IL 60201",
+      "contact_name": "Kristina Economos",
+      "phone": "847-864-1472",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Kristina Economos",
+          "phone": "847-864-1472",
+          "regular_hours": [
+            "Saturday 11:30 AM - 12:15 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Bryn Mawr Community Foundation",
+      "address": "7000 S Jeffery Blvd Chicago, IL 60649",
+      "contact_name": "Gloria Norwood",
+      "phone": "773-324-2403",
+      "website": "brynmawrfaith.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Gloria Norwood",
+          "phone": "773-324-2403",
+          "regular_hours": [
+            "Saturday 11:00 AM - 1:00 PM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Gloria Norwood",
+          "phone": "773-324-2403",
+          "regular_hours": [
+            "Saturday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Evening Star MBC",
+      "address": "2050 W 59th St. Chicago, IL 60636",
+      "contact_name": "Bishop Dixon",
+      "phone": "773-925-6160",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Bishop Dixon",
+          "phone": "773-925-6160",
+          "regular_hours": [
+            "Thursday 12:00 PM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Hyde Park Kenwood Interfaith Food Pantry",
+      "address": "5600 S Woodlawn Ave. Chicago, IL 60637",
+      "contact_name": "Margaret Mitchell",
+      "phone": "773-363-6063",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Margaret Mitchell",
+          "phone": "773-363-6063",
+          "regular_hours": [
+            "10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Midway Citadel Corps Community Center",
+      "address": "5036 W 47th St. Chicago, IL 60638",
+      "contact_name": "Johnathan Harvy",
+      "phone": "773-838-8005",
+      "website": "centralusa.salvationarmy.org/chicagomidway/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Johnathan Harvy",
+          "phone": "773-838-8005",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 1:00 PM",
+            "Friday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Chosen Tabernacle Full Gospel Baptist Church",
+      "address": "6201 S Sangamon Chicago, IL 60621",
+      "contact_name": "Sandra Gillespie",
+      "phone": "888-834-9414",
+      "website": "www.chosentabernacle.com/",
+      "general_hours": "Monday 4:00 PM - 6:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Sandra Gillespie",
+          "phone": "888-834-9414",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM",
+            "Thursday 1:00 PM - 3:00 PM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Health and Wellness Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Greater St John AME Church",
+      "address": "6201 S Throop St Chicago, IL 60636",
+      "contact_name": "Walter Reynolds",
+      "phone": "773-925-2262",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Walter Reynolds",
+          "phone": "773-925-2262",
+          "regular_hours": [
+            "Thursday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "A Blessing Hand",
+      "address": "5815 S Homan Ave Chicago, IL 60629",
+      "contact_name": "Heidy Mendez-Grimaldo",
+      "phone": "312-597-5483",
+      "programs": [
+        {
+          "category": "Outdoor Grocery Distribution",
+          "contact_name": "Heidy Mendez-Grimaldo",
+          "phone": "312-597-5483",
+          "regular_hours": [
+            "Saturday 11:00 AM - 1:00 PM (3rd of Month)"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        },
+        {
+          "category": "Mental Health Services"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Health and Wellness Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Howard Area Community Center",
+      "address": "7648 N Paulina St. Chicago, IL 60626",
+      "contact_name": "Silvina Mamani",
+      "phone": "773-262-6622",
+      "website": "howardarea.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Silvina Mamani",
+          "phone": "773-262-6622",
+          "regular_hours": [
+            "Monday 1:00 PM - 3:30 PM",
+            "Wednesday 9:00 AM - 11:30 AM"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        }
+      ]
+    },
+    {
+      "organization_name": "Pav YMCA",
+      "address": "2947 S Oak Park Ave Berwyn, IL 60402",
+      "contact_name": "Kathy Kozlick",
+      "phone": "708-749-0606"
+    },
+    {
+      "organization_name": "The Inner City Muslim Action Network",
+      "address": "1216 W 63rd St. Chicago, IL 60636",
+      "contact_name": "Jamil Wright",
+      "phone": "773-434-4626",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "phone": "773-434-4626",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 12:00 PM",
+            "Thursday 4:00 PM - 6:00 PM",
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "New Hope Community Food Pantry",
+      "address": "6125 W Foster Chicago, IL 60630",
+      "contact_name": "Donna Oberhardt",
+      "phone": "773-775-1215",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Donna Oberhardt",
+          "regular_hours": [
+            "Monday 4:00 PM - 5:30 PM (4th of Month)",
+            "Tuesday 9:30 AM - 11:30 AM"
+          ]
+        },
+        {
+          "category": "Health and Wellness Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Elmwood Park Community Church",
+      "address": "2334 North 75th Avenue Elmwood Park, IL 60707",
+      "contact_name": "Lydia Stevenson",
+      "phone": "224-319-7836",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Lydia Stevenson",
+          "phone": "224-319-7836",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Mount Olive Baptist Church",
+      "address": "6353 S Marshfield Ave Chicago, IL 60636",
+      "contact_name": "Geraldine Tolbert",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Geraldine Tolbert",
+          "phone": "773-737-1523",
+          "regular_hours": [
+            "Saturday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Christian Life Center",
+      "address": "3409 Grove Ave Berwyn, IL 60402",
+      "contact_name": "Peggy Kucharz",
+      "phone": "708-398-3234",
+      "website": "www.berwynag.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Peggy Kucharz",
+          "phone": "708-398-2324",
+          "regular_hours": [
+            "Thursday 5:00 PM - 7:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "All Things Through Christ",
+      "address": "6600 S Hermitage Ave Chicago, IL 60636",
+      "contact_name": "Pamela McKenzie",
+      "phone": "708-214-9075",
+      "website": "attcomcharities.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Pamela McKenzie",
+          "phone": "708-214-9075",
+          "regular_hours": [
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Sanad Organization",
+      "address": "6248 S Spaulding Ave Chicago, IL 60629",
+      "contact_name": "Fatima Abueid",
+      "phone": "773-436-7989",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Fatima Abueid",
+          "phone": "773-436-7989",
+          "regular_hours": [
+            "Friday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Evanston Vineyard Food Pantry",
+      "address": "2495 Howard St Evanston, IL 60202",
+      "contact_name": "Nancy Roman",
+      "phone": "847-328-4544",
+      "website": "evanstonvineyard.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Keva Green",
+          "phone": "847-328-4544",
+          "regular_hours": [
+            "Wednesday 6:00 PM - 8:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Shepherd's Hope Ltd",
+      "address": "838 West Marquette Road Chicago, IL 60621",
+      "contact_name": "Brian Anderson",
+      "phone": "773-351-3336",
+      "website": "shepherdshopechicago.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Brian Anderson",
+          "phone": "773-351-3336",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 2:00 PM",
+            "Saturday 9:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Brian Anderson",
+          "phone": "773-351-3336",
+          "regular_hours": [
+            "Monday 1:00 PM - 5:00 PM",
+            "Tuesday 1:00 PM - 5:00 PM",
+            "Wednesday 1:00 PM - 5:00 PM",
+            "Thursday 1:00 PM - 5:00 PM",
+            "Friday 1:00 PM - 5:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Parkway Garden Christian Church",
+      "address": "6600 S Martin Luther King Dr Chicago, IL 60637",
+      "contact_name": "Edward Morris",
+      "phone": "773-956-8723",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Edward Morris",
+          "phone": "773-956-8723",
+          "regular_hours": [
+            "Friday 10:30 AM - 12:30 PM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "New Mount Calvary Baptist Church",
+      "address": "1850 W Marquette Rd Chicago, IL 60636",
+      "contact_name": "Raletta Ingram",
+      "phone": "773-737-5433",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Yolanda Morris",
+          "phone": "773-737-5433",
+          "regular_hours": [
+            "Monday 2:30 PM - 4:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "First Presbyterian Church of Chicago",
+      "address": "6400 S Kimbark Ave Chicago, IL 60637",
+      "contact_name": "Gail Robinson",
+      "phone": "770-789-6832",
+      "website": "chicagofirstchurch.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Gail Robinson",
+          "phone": "770-789-6832"
+        }
+      ]
+    },
+    {
+      "organization_name": "St John Lutheran Church Our Lady of Victory",
+      "address": "5247 W Sunnyside Ave Chicago, IL 60630",
+      "contact_name": "Rick Paulsen",
+      "phone": "312-402-0005",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Rick Paulsen",
+          "phone": "312-402-0005",
+          "regular_hours": [
+            "Wednesday 5:00 PM - 7:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "For Your Consciousness Campbell Ministries",
+      "address": "1923 W 51st St Chicago, IL 60609",
+      "contact_name": "Felicia Campbell",
+      "phone": "773-430-8091",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Felicia Campbell",
+          "phone": "773-430-8091",
+          "regular_hours": [
+            "10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Ebenezer Christian Reformed Church",
+      "address": "1248 South Harvey Ave Berwyn, IL 60402",
+      "contact_name": "Kay Rops",
+      "phone": "708-795-6480",
+      "programs": [
+        {
+          "category": "Mental Health Services"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Kay Rops",
+          "phone": "708-795-6480",
+          "regular_hours": [
+            "Friday 5:00 PM - 7:00 PM"
+          ]
+        },
+        {
+          "category": "Legal Assistance",
+          "contact_name": "Kay Rops",
+          "phone": "708-795-6480"
+        },
+        {
+          "category": "Other",
+          "contact_name": "Kay Rops",
+          "phone": "708-795-6480"
+        }
+      ]
+    },
+    {
+      "organization_name": "ICNA Relief USA Chicago",
+      "address": "2809 West Devon Avenue Chicago, IL 60659",
+      "contact_name": "Shoaib Khairzada",
+      "phone": "202-802-3173",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Shoaib Khairzada",
+          "phone": "202-802-3173",
+          "regular_hours": [
+            "Thursday 10:00 AM - 1:00 PM",
+            "Saturday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Agents of Hope Training and Information Center",
+      "address": "2736 W Devon Ave Chicago, IL 60659",
+      "phone": "773-739-9079",
+      "website": "www.ahtic.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Tuesday 2:00 PM - 5:00 PM",
+            "Wednesday 2:00 PM - 4:00 PM"
+          ],
+          "special_hours": [
+            "Feb 16, 2026 CLOSED President's Day",
+            "May 25, 2026 CLOSED Memorial Day",
+            "Sep 07, 2026 CLOSED Labor Day",
+            "Oct 12, 2026 CLOSED Columbus Day",
+            "Nov 11, 2026 CLOSED Veterans Day"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Christ Temple COG",
+      "address": "5252 S Ashland Ave Chicago, IL 60609",
+      "contact_name": "Donna Arnold",
+      "phone": "773-776-3834",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Donna Arnold",
+          "phone": "773-776-3834",
+          "regular_hours": [
+            "Tuesday 12:00 PM - 2:00 PM"
+          ]
+        },
+        {
+          "category": "Mental Health Services"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Health and Wellness Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "St Basil/Visitation",
+      "address": "843 W Garfield Blvd Chicago, IL 60621",
+      "contact_name": "Barbara Collins",
+      "phone": "773-846-9562",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Barbara Collins",
+          "phone": "773-846-9562",
+          "regular_hours": [
+            "Monday 8:00 AM - 11:00 AM",
+            "Wednesday 8:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "United Church of Rogers Park",
+      "address": "1545 W Morse Ave Chicago, IL 60626",
+      "contact_name": "John M. Cason",
+      "phone": "773-761-2500",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "John M. Cason",
+          "phone": "773-761-2500 Ext.10",
+          "regular_hours": [
+            "Sunday 4:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Care For Real",
+      "address": "1545 WEST MORSE AVE Chicago, IL 60626",
+      "contact_name": "Kate Polgar",
+      "phone": "773-769-6182",
+      "website": "careforreal.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Kate Polgar",
+          "phone": "773-769-6182",
+          "regular_hours": [
+            "Thursday 3:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Beyond Hunger",
+      "address": "848 Lake St Oak Park, IL 60301",
+      "contact_name": "Monnette Bariel",
+      "phone": "708-386-1324",
+      "website": "www.gobeyondhunger.org/",
+      "programs": [
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Public Benefits Assistance",
+          "phone": "708-406-7295 Ext.1106",
+          "email": "benefits@gobeyondhunger.org",
+          "regular_hours": [
+            "Wednesday 1:00 PM - 5:00 PM (In-person at the Beyond Hunger food pantry.)",
+            "Thursday 10:00 AM - 12:00 PM (In-person at A House in Austin (533 N Pine Ave, Chicago, IL 60644))(3rd of Month)",
+            "Thursday 11:00 AM - 1:00 PM (In-person at What About Us (5624 W North Ave, Chicago, IL 60639))(2nd of Month)",
+            "Saturday 9:00 AM - 12:00 PM (In-person at the Beyond Hunger food pantry.)"
+          ],
+          "notes": "Our Benefits Services team is available by phone Tuesday- Friday, 9:00 a.m. - 5:00 p.m. Please call Aida Ayala, Benefits Services Coordinator, at 708-386-1324 ext. 1106"
+        },
+        {
+          "category": "Educational Courses/Classes",
+          "contact_name": "Maria Delis",
+          "phone": "708-386-1124 Ext.1110",
+          "email": "maria@gobeyondhunger.org"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Monnette Bariel",
+          "phone": "708-386-1324 Ext.1114",
+          "regular_hours": [
+            "Wednesday 3:30 PM - 5:30 PM",
+            "Saturday 9:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Case Management Services",
+          "contact_name": "Bri Kellogg",
+          "phone": "708-386-1324 Ext.1111",
+          "email": "brianne@gobeyondhunger.org",
+          "regular_hours": [
+            "Wednesday 1:00 PM - 5:00 PM (In-person at the Beyond Hunger food pantry.)",
+            "Thursday 10:00 AM - 12:00 PM (In person at A House in Austin (533 N Pine Ave, Chicago, IL 60644))(3rd of Month)",
+            "Thursday 11:00 AM - 1:00 PM (In-person at What About Us (5624 W North Ave, Chicago, IL 60639))(2nd of Month)",
+            "Saturday 9:00 AM - 12:00 PM (In-person at the Beyond Hunger food pantry.)"
+          ],
+          "notes": "Our Benefits Services team is available by phone Tuesday- Friday, 9:00 a.m. - 5:00 p.m. Please call Aida Ayala, Benefits Services Coordinator, at 708-386-1324 ext. 1106"
+        }
+      ]
+    },
+    {
+      "organization_name": "Soup Kitchen at Congregation KINS",
+      "address": "2800 West North Shore Avenue Chicago, IL 60645",
+      "contact_name": "Karen Nochimowski",
+      "phone": "773-761-4000",
+      "website": "www.congkins.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Karen Nochimowski",
+          "phone": "773-761-4000",
+          "regular_hours": [
+            "Tuesday 5:45 PM - 7:45 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Ignatian Mission Center",
+      "address": "1735 W Greenleaf Ave Chicago, IL 60626",
+      "contact_name": "Dara Hoppe",
+      "phone": "773-739-9255",
+      "website": "www.ignatianmission.org/food-pantry",
+      "general_hours": "Tuesday 3:00 PM - 7:00 PM, Friday 10:00 AM - 2:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Dara Hoppe",
+          "phone": "773-739-9255",
+          "regular_hours": [
+            "Tuesday 3:00 PM - 7:00 PM",
+            "Friday 10:00 AM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Gorpham UMC",
+      "address": "5600 S Indiana Ave Chicago, IL 60637",
+      "contact_name": "Lazette Saunders",
+      "phone": "773-324-8657",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Lazette Saunders",
+          "phone": "773-324-8657",
+          "regular_hours": [
+            "Tuesday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Coppin Community Center",
+      "address": "5627 S Michigan Ave Chicago, IL 60637",
+      "contact_name": "Frankye Parham",
+      "phone": "773-667-5881",
+      "website": "coppinchicago.wixsite.com/mysite",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Frankye Parham",
+          "phone": "773-667-5881",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Cyprian Ecumenical Food Pantry",
+      "address": "6535 W Irving Park Rd Chicago, IL 60634",
+      "contact_name": "Joan Billingham",
+      "phone": "773-283-9178",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Joan Billingham",
+          "phone": "773-283-9178",
+          "regular_hours": [
+            "Monday 9:00 AM - 11:00 AM",
+            "Thursday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Sheridan Carroll Charitable Works Fund Inc.",
+      "address": "2015 N Harlem Ave Chicago, IL 60707",
+      "phone": "773-237-4937",
+      "website": "www.feedchicago.org/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "phone": "773-237-4937",
+          "regular_hours": [
+            "Monday 3:00 PM - 5:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Gall",
+      "address": "5533 S Sawyer Ave Chicago, IL 60629",
+      "contact_name": "Priscilla Estrada Rivera",
+      "phone": "773-737-3113",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Priscilla Estrada Rivera",
+          "phone": "773-737-3113",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM",
+            "Wednesday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pan de Vida Food Pantry",
+      "address": "5101 S Keeler Ave Chicago, IL 60632",
+      "contact_name": "Verenice Martinez",
+      "phone": "773-877-9957",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Verenice Martinez",
+          "phone": "773-877-9957",
+          "regular_hours": [
+            "Wednesday 3:00 PM - 5:00 PM",
+            "Friday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Operation Blessing Evening Star",
+      "address": "2050 W 59th St. Chicago, IL 60636",
+      "contact_name": "Bishop Dixon",
+      "phone": "773-925-6160"
+    },
+    {
+      "organization_name": "Greater Metropolitan MBC",
+      "address": "5856 S Wabash Ave. Chicago, IL 60637",
+      "contact_name": "James Gray",
+      "phone": "773-667-6020"
+    },
+    {
+      "organization_name": "Westside Health Authority",
+      "address": "5437 W Division St. Chicago, IL 60651",
+      "contact_name": "Joseph Green",
+      "phone": "773-664-0339",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Joseph Green",
+          "phone": "773-664-0339 Ext.2110",
+          "regular_hours": [
+            "Thursday 2:30 PM - 4:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Harris Temple AOH Church",
+      "address": "4138 South Cottage Grove Avenue Chicago, IL 60653",
+      "contact_name": "Leah J. Muhich",
+      "phone": "773-536-9138",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Leah J. Muhich",
+          "phone": "773-536-9138",
+          "regular_hours": [
+            "11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Helping Our People Excel Community Development Corporation",
+      "address": "5912 W Iowa St. Chicago, IL 60651",
+      "contact_name": "Steve Epting",
+      "phone": "773-921-2243",
+      "website": "onehopenation.org",
+      "general_hours": "Friday 12:00 PM - 2:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Steve Epting",
+          "phone": "773-921-2243",
+          "regular_hours": [
+            "Friday 12:00 PM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Casa Catalina",
+      "address": "4537 S Ashland Ave. Chicago, IL 60609",
+      "phone": "773-376-9425",
+      "website": "www.hcimh.org/",
+      "programs": [
+        {
+          "category": "Public Benefits Assistance"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "phone": "773-376-9425",
+          "regular_hours": [
+            "Tuesday 9:30 AM - 11:30 AM, 1:00 PM - 3:00 PM",
+            "Wednesday 1:00 PM - 5:30 PM",
+            "Thursday 9:30 AM - 11:30 AM, 1:00 PM - 3:00 PM"
+          ]
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Friday 1:00 PM - 3:00 PM (2nd of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Fellowship MBC",
+      "address": "4543 S Princeton, Chicago, IL 60609",
+      "contact_name": "LaVorn Hale",
+      "phone": "773-924-3232",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "LaVorn Hale",
+          "phone": "773-924-3232",
+          "regular_hours": [
+            "Thursday 12:00 PM - 2:00 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "LaVorn Hale",
+          "phone": "773-924-3232",
+          "regular_hours": [
+            "Wednesday 8:00 AM - 10:00 AM",
+            "Saturday 8:00 AM - 10:00 AM (4th of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Kenwood Oakland Community Organization",
+      "address": "4321 S Cottage Grove Ave Chicago, IL 60637",
+      "contact_name": "Shannon Bennett",
+      "phone": "773-548-7500",
+      "website": "kocoonline.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Shannon Bennett",
+          "phone": "773-548-7500",
+          "regular_hours": [
+            "Monday 9:30 AM - 1:30 PM",
+            "Tuesday 9:30 AM - 1:30 PM",
+            "Wednesday 9:30 AM - 1:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Life Ministries COGIC",
+      "address": "634 N Austin Blvd Oak Park, IL 60302",
+      "contact_name": "Sharon Gibson",
+      "phone": "773-640-0919",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Sharon Gibson",
+          "phone": "773-640-0919",
+          "regular_hours": [
+            "Thursday 10:00 AM - 12:00 PM",
+            "Friday 4:30 PM - 6:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Templo Laramie Corps Community Center",
+      "address": "2337 S Laramie Ave Cicero, IL 60804",
+      "contact_name": "Veronica Soto",
+      "phone": "708-222-0177",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Veronica Soto",
+          "phone": "708-222-0177 Ext.0",
+          "regular_hours": [
+            "Monday 1:00 PM - 3:00 PM",
+            "Tuesday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Northwest COC",
+      "address": "4602 N Kilbourn Ave Chicago, IL 60630",
+      "contact_name": "Patrick Odum",
+      "phone": "773-283-2586",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Patrick Odum",
+          "phone": "773-283-2586",
+          "regular_hours": [
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Irving Park Corps Community Center",
+      "address": "5020 N Pulaski Rd Chicago, IL 60641",
+      "contact_name": "Danielle Helmer",
+      "phone": "773-794-6207",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Carlos Moran",
+          "phone": "773-794-6207",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 12:00 PM",
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Immaculate Conception",
+      "address": "2745 West 44th Street Chicago, IL 60632",
+      "contact_name": "Father Miguel Venegas",
+      "phone": "773-523-1402",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Pastor Miguel Venegas",
+          "phone": "773-523-1402",
+          "regular_hours": [
+            "Friday 4:00 PM - 6:00 PM",
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Metropolitan Community Church",
+      "address": "4610 S Prairie Ave Chicago, IL 60653",
+      "contact_name": "Janice Thomas",
+      "phone": "773-536-2046",
+      "general_hours": "Saturday 11:00 AM - 1:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Janice Thomas",
+          "phone": "773-536-2046",
+          "regular_hours": [
+            "Saturday 11:00 AM - 1:00 PM"
+          ],
+          "special_hours": [
+            "Jan 24, 2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Firman Community Services",
+      "address": "37 W 47th St Chicago, IL 60609",
+      "contact_name": "Warner Abrams",
+      "phone": "773-373-3400",
+      "website": "www.firmancs.org",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Warner Abrams",
+          "phone": "773-373-3400",
+          "regular_hours": [
+            "Wednesday 12:00 PM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Life Christian Fellowship",
+      "address": "6235 W North Ave Oak Park, IL 60302",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "John Bitakis",
+          "phone": "224-423-1791",
+          "regular_hours": [
+            "Tuesday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "San Miguel School",
+      "address": "1936 W 48th St Chicago, IL 60609",
+      "contact_name": "Irene Lopez Santoyo",
+      "phone": "773-376-2700",
+      "programs": [
+        {
+          "category": "Outdoor grocery distribution",
+          "contact_name": "Irene Lopez Santoyo",
+          "phone": "773-376-2700",
+          "regular_hours": [
+            "Thursday 2:30 PM - 4:30 PM (1st of Month)"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Chicago Hyde Park SDA Church",
+      "address": "4608 S Drexel Blvd Chicago, IL 60653",
+      "contact_name": "Dolby Knott",
+      "phone": "773-373-2909",
+      "website": "www.hydeparksda.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Dolby Knott",
+          "phone": "773-373-2909",
+          "regular_hours": [
+            "Wednesday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Kenwood UCC Soup Kitchen",
+      "address": "4608 South Greenwood Avenue Chicago, IL 60653",
+      "contact_name": "Denise Faulkner",
+      "phone": "773-536-9059",
+      "website": "kenwooducc.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Denise Faulkner"
+        }
+      ]
+    },
+    {
+      "organization_name": "Second Faith Temple COGIC",
+      "address": "424 E 49th St Chicago, IL 60615",
+      "contact_name": "Robert Robinson",
+      "phone": "708-308-1228",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Robert Robinson",
+          "phone": "708-308-1228",
+          "regular_hours": [
+            "Friday 6:00 PM - 8:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Central American Martyrs Center",
+      "address": "5045 S Laflin Ave Chicago, IL 60609",
+      "contact_name": "Kristin Peters",
+      "phone": "773-376-9263",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Kristin Peters",
+          "phone": "773-376-9263",
+          "regular_hours": [
+            "Tuesday 8:30 AM - 10:30 AM",
+            "Thursday 8:30 AM - 10:30 AM",
+            "Saturday 9:00 AM - 11:00 AM (2nd, 4th of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Eclipse Community Alliance",
+      "address": "715 West 51st Street Chicago, IL 60609",
+      "contact_name": "Pamela Butts",
+      "phone": "773-538-4957",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Pamela Butts",
+          "phone": "773-538-4957",
+          "regular_hours": [
+            "Wednesday 4:30 PM - 6:30 PM",
+            "Thursday 4:30 PM - 6:30 PM"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        },
+        {
+          "category": "Mental Health Services"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Public Benefits Assistance"
+        },
+        {
+          "category": "Health and Wellness Services"
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Thursday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "William V Banks Human Needs Center",
+      "address": "5323 W Lake Chicago, IL 60644",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Michelle Willams-Slaten",
+          "regular_hours": [
+            "Wednesday 1:00 PM - 4:00 PM",
+            "Thursday 1:00 PM - 4:00 PM",
+            "Friday 1:00 PM - 4:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Apostolic Faith Church",
+      "address": "3823 S Indiana Ave Chicago, IL 60653",
+      "contact_name": "Susan Smith",
+      "phone": "773-373-8500",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Susan Smith",
+          "phone": "773-373-8500",
+          "regular_hours": [
+            "Tuesday 5:00 PM - 7:00 PM",
+            "10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Christ Evangelical Lutheran Church",
+      "address": "1511 N Long Ave Chicago, IL 60651",
+      "contact_name": "Marva Newman",
+      "phone": "773-637-4800",
+      "website": "www.christenglcms.org/",
+      "general_hours": "Tuesday 11:00 AM - 1:00 PM, Saturday 8:00 AM - 10:00 AM",
+      "programs": [
+        {
+          "category": "Employment Services/Workforce Development",
+          "contact_name": "Pastor C.J. Wright",
+          "phone": "773-269-8081"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Marva Newman",
+          "phone": "773-637-4800",
+          "regular_hours": [
+            "Tuesday 12:00 PM - 2:00 PM",
+            "Saturday 8:00 AM - 10:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "The Holy Order of Cherubim and Seraphim Movement",
+      "address": "4850 N Sawyer Ave Chicago, IL 60625",
+      "contact_name": "Olubukola Adebesin",
+      "phone": "773-383-0276",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Olubukola Adebesin",
+          "phone": "773-383-0276",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Life Community Church - Albany Park",
+      "address": "4540 N Hamlin Ave Chicago, IL 60625",
+      "contact_name": "Nitin Shelke",
+      "phone": "312-489-8861",
+      "programs": [
+        {
+          "category": "Outdoor grocery distribution",
+          "contact_name": "Nitin Shelke",
+          "phone": "773-876-1712",
+          "regular_hours": [
+            "Tuesday 4:00 PM - 6:00 PM (1st of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pine Avenue United Church",
+      "address": "1015 N Pine Ave Chicago, IL 60651",
+      "contact_name": "Marcus Love",
+      "phone": "773-287-4777",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Marcus Love",
+          "phone": "773-287-4777",
+          "regular_hours": [
+            "Tuesday 9:30 AM - 11:30 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Our Lady of Fatima",
+      "address": "2751 West 38th Place Chicago, IL 60632",
+      "contact_name": "Irene Tovalin",
+      "phone": "773-575-2458",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Irene Tovalin",
+          "phone": "773-575-2458",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM"
+          ],
+          "special_hours": [
+            "Jan 24, 2026 CLOSED"
+          ]
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM (1st, 3rd Week of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "North Shore SDA Church",
+      "address": "5220 N California Ave. Chicago, IL 60625",
+      "contact_name": "Kathleen Leong-Pauner",
+      "phone": "773-561-0282",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Kathleen Leong-Pauner",
+          "phone": "773-561-0282",
+          "regular_hours": [
+            "Sunday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Elizabeth Church SVDP",
+      "address": "4058 S Michigan Ave. Chicago, IL 60653",
+      "contact_name": "LaDell Johnson",
+      "phone": "773-642-6532",
+      "programs": [
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Fraternite Notre Dame",
+      "address": "502 N Central Ave Chicago, IL 60644",
+      "contact_name": "Mother Marie Martha",
+      "phone": "773-261-0101",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Mother Marie Martha",
+          "phone": "773-261-0101",
+          "regular_hours": [
+            "Monday 11:00 AM - 1:00 PM",
+            "Tuesday 11:00 AM - 1:00 PM",
+            "Wednesday 11:00 AM - 1:00 PM",
+            "Thursday 11:00 AM - 1:00 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Mother Marie Martha",
+          "phone": "773-261-0101",
+          "regular_hours": [
+            "Wednesday 2:00 PM - 5:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Ministerio el Shaddai el Shaddai Ministry Inc.",
+      "address": "1421 S Laramie Ave Cicero, IL 60804",
+      "contact_name": "Mireya Lopez",
+      "phone": "708-222-2200",
+      "website": "www.elshaddaichicago.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Mireya Lopez",
+          "phone": "708-222-2200",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "CBS Anti-Hunger Foundation",
+      "address": "4940 W 21st St corner of 21st St and 50th Ave Cicero, IL 60804",
+      "contact_name": "Carol Nenne",
+      "phone": "708-863-4913",
+      "general_hours": "Tuesday 10:00 AM - 12:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Carol Nenne",
+          "phone": "708-863-4913"
+        }
+      ]
+    },
+    {
+      "organization_name": "Circle Urban Ministries",
+      "address": "118 N Central Ave Chicago, IL 60644",
+      "phone": "773-921-1446",
+      "website": "circleurban.org/",
+      "general_hours": "Monday 8:30 AM - 6:00 PM (Circle Urban Ministries Lobby Hours), Tuesday 8:30 AM - 6:00 PM (Circle Urban Ministries Lobby Hours), Wednesday 8:30 AM - 6:00 PM (Circle Urban Ministries Lobby Hours) 9:00 AM - 11:00 AM (Food Pantry Hours Only), Thursday 8:30 AM - 6:00 PM (Circle Urban Ministries Lobby Hours) 12:00 PM - 2:00 PM (Food Pantry Hours Only), Friday 8:30 AM - 6:00 PM (Circle Urban Ministries Lobby Hours)",
+      "programs": [
+        {
+          "category": "Public Benefits Assistance",
+          "phone": "773-921-1446 Ext.1107",
+          "regular_hours": [],
+          "notes": "Appointment Required for SNAP & Medical Applications call 773-921-1446 Extension 1107"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Ms Darriel S Anderson",
+          "phone": "773-921-1446 Ext.1214",
+          "email": "darriela@circleurban.org"
+        }
+      ]
+    },
+    {
+      "organization_name": "Care for Friends",
+      "address": "5749 N Kenmore Ave, Chicago, IL 60660",
+      "contact_name": "Hope Pavich",
+      "phone": "773-932-1010",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Hope Pavich",
+          "phone": "773-932-1010",
+          "regular_hours": [
+            "Thursday 10:30 AM - 12:30 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Hope Pavich",
+          "phone": "773-932-1010",
+          "regular_hours": [
+            "Thursday 10:30 AM - 12:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Polish American Association",
+      "address": "3334 N Cicero Ave Chicago, IL 60641",
+      "phone": "773-282-8206",
+      "website": "www.polish.org/en/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "phone": "773-282-8206",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 2:00 PM"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        },
+        {
+          "category": "Mental Health Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "The Lord's Table",
+      "address": "5224 N Kedzie Ave Chicago, IL 60625",
+      "contact_name": "Omolola Asielue",
+      "phone": "773-290-1858"
+    },
+    {
+      "organization_name": "Onward House",
+      "address": "5433 W Diversey Ave Chicago, IL 60639",
+      "contact_name": "Philena Price",
+      "phone": "773-622-3215"
+    },
+    {
+      "organization_name": "First Church of Deliverance",
+      "address": "4317 S Wabash Ave Chicago, IL 60653",
+      "contact_name": "Marcia Carter",
+      "phone": "773-373-7700",
+      "email": "marcia@carter@yahoo.com",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Marcia Carter",
+          "phone": "773-373-7700",
+          "email": "marcia@carter@yahoo.com",
+          "regular_hours": [
+            "Monday 1:30 PM - 3:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Care For Real",
+      "address": "5840 N Broadway St Chicago, IL 60660",
+      "contact_name": "Kate Polgar",
+      "phone": "773-769-6182",
+      "website": "careforreal.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Kate Polgar",
+          "phone": "773-769-6182",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM",
+            "Wednesday 9:00 AM - 12:00 PM",
+            "9:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "United for Better Living Inc.",
+      "address": "4540 W Washington Blvd Chicago, IL 60624",
+      "contact_name": "Kathy Allison",
+      "phone": "773-261-3309",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Kathy Allison",
+          "phone": "773-261-3309",
+          "regular_hours": [
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Friday 1:00 PM - 3:00 PM (2nd of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Seed Pantry",
+      "address": "4716 N Malden St Chicago, IL 60640",
+      "contact_name": "Jon-Paul Grosser",
+      "phone": "773-561-2655",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Jon-Paul Grosser",
+          "phone": "773-561-2655",
+          "regular_hours": [
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "United Baptist Church",
+      "address": "4220 W Roosevelt Rd Chicago, IL 60624",
+      "contact_name": "Dora Davis",
+      "phone": "773-722-4357",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Dora Davis",
+          "phone": "773-722-4357",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Jireh Food Pantry",
+      "address": "4224 W 13th St Chicago, IL 60623",
+      "contact_name": "Mattie Phillips",
+      "phone": "773-762-2432",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Mattie Phillips",
+          "phone": "773-762-2432",
+          "regular_hours": [
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Thomas of Canterbury",
+      "address": "4827 N Kenmore Ave Chicago, IL 60640",
+      "contact_name": "Nancy Martinez",
+      "phone": "773-878-5507",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Br. Ayub Mwenda",
+          "phone": "773-878-5507",
+          "regular_hours": [
+            "Monday 9:00 AM - 11:30 AM",
+            "Thursday 9:00 AM - 11:30 AM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Nancy Martinez",
+          "phone": "773-878-5507",
+          "regular_hours": [
+            "Tuesday 5:30 PM - 6:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "La Villita Corps Community Center",
+      "address": "3621 W 24th St. Chicago, IL 60623",
+      "contact_name": "Silvia Galan",
+      "phone": "773-257-0700",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Silvia Galan",
+          "phone": "773-257-0700",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Healing Temple COGIC 1",
+      "address": "4941 W Chicago Ave. Chicago, IL 60651",
+      "contact_name": "Elizabeth Lockhart",
+      "phone": "773-378-9649",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Elizabeth Lockhart"
+        }
+      ]
+    },
+    {
+      "organization_name": "Iglesia Evangelica Emanuel",
+      "address": "5016 W Armitage Ave Chicago, IL 60639",
+      "contact_name": "Aurea Rodriguez",
+      "phone": "773-237-1645",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Aurea Rodriguez",
+          "phone": "773-237-1645",
+          "regular_hours": [
+            "Monday 9:00 AM - 11:00 AM",
+            "Tuesday 9:00 AM - 11:00 AM"
+          ],
+          "special_hours": [
+            "Feb 16, 2026 CLOSED",
+            "Mar 02, 2026 CLOSED",
+            "Mar 17, 2026 CLOSED",
+            "Apr 03, 2026 CLOSED",
+            "May 25, 2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pan de Vida Food Pantry",
+      "address": "Information not provided in this PDF",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Diana Franco",
+          "phone": "773-762-0270",
+          "regular_hours": [
+            "Tuesday 8:00 AM - 12:00 PM",
+            "Wednesday 3:00 PM - 6:00 PM",
+            "Thursday 8:00 AM - 12:00 PM",
+            "Saturday 9:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "Fuel Movement Community Organization",
+      "address": "4248 W Cermak Chicago, IL 60641",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Friday 2:00 PM - 5:00 PM",
+            "Sunday 9:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Sixth Grace Presbyterian Church",
+      "address": "600 E 35th St Chicago, IL 60616",
+      "contact_name": "Pamela Jones",
+      "phone": "312-225-5300",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Pamela Jones",
+          "phone": "312-225-5300",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Albany Park Food Pantry",
+      "address": "3253 W Wilson Ave Chicago, IL 60625",
+      "contact_name": "Rose Rivera",
+      "phone": "773-478-7941",
+      "general_hours": "Wednesday 7:00 AM - 9:00 AM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Rose Rivera",
+          "phone": "773-478-7941",
+          "regular_hours": [
+            "Wednesday 8:00 AM - 10:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Grace and Peace Church",
+      "address": "1856 N Leclaire Ave Chicago, IL 60639",
+      "contact_name": "Nancy Rosario",
+      "phone": "773-387-1713",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Nancy Rosario",
+          "phone": "773-639-0382",
+          "regular_hours": [
+            "Tuesday 2:00 PM - 6:00 PM",
+            "Wednesday 10:00 AM - 2:00 PM",
+            "Thursday 10:00 AM - 2:00 PM"
+          ]
+        },
+        {
+          "category": "Public Benefits Assistance"
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 2:00 PM (1st, 3rd Week of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Martin De Porres",
+      "address": "5112 W Washington Blvd Chicago, IL 60644",
+      "contact_name": "William Pouncy",
+      "phone": "773-287-0206",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 12:00 PM",
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Irving Park Community Food Pantry",
+      "address": "4256 N Ridgeway Ave Chicago, IL 60618",
+      "phone": "773-283-6296",
+      "email": "info@irvingparkfoodpantry.org",
+      "website": "irvingparkfoodpantry.org/",
+      "general_hours": "Tuesday 6:00 PM - 7:00 PM (2nd Week of Month), Wednesday 9:00 AM - 12:00 PM",
+      "special_hours": "Nov 25, 2026 CLOSED (The pantry is closed the week of Thanksgiving), Dec 23, 2026 CLOSED (The pantry is closed between 12/21/26 and 1/4/27), Dec 30, 2026 CLOSED (The pantry is closed between 12/21/26 and 1/4/27)",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "John Psiharis",
+          "phone": "773-283-6296",
+          "regular_hours": [
+            "Tuesday 6:00 PM - 7:00 PM (2nd of Month)",
+            "Wednesday 9:00 AM - 12:00 PM"
+          ],
+          "special_hours": [
+            "Nov 25, 2026 CLOSED",
+            "Dec 23, 2026 CLOSED",
+            "Dec 30, 2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Matthew House",
+      "address": "3728 S Indiana Ave Chicago, IL 60653",
+      "contact_name": "Sanja Stinson",
+      "phone": "773-536-6628",
+      "programs": [
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "West Point Baptist Church",
+      "address": "3566-72 S Cottage Grove Ave Chicago, IL 60653",
+      "contact_name": "Floydia Giles-Stokes",
+      "phone": "773-538-7590",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Floydia Giles-Stokes",
+          "phone": "773-538-7590",
+          "regular_hours": [
+            "Wednesday 11:00 AM - 1:00 PM"
+          ],
+          "special_hours": [
+            "Jan 21,2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Tabor Lutheran Church",
+      "address": "3542 W Sunnyside Ave Chicago, IL 60625",
+      "phone": "773-588-4040",
+      "general_hours": "Wednesday 10:00 AM-12:30 PM (2nd, 4th of Month)",
+      "programs": [
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Wednesday 10:00 AM-12:00 PM (2nd, 4th of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Heritage International Community Development Corp.",
+      "address": "5320 W North Ave Chicago, IL 60639",
+      "contact_name": "Shirley Smith",
+      "phone": "773-237-9600",
+      "website": "www.heritageicc.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Thursday 6:00 PM - 8:00 PM"
+          ]
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Saturday 9:00 AM - 12:00 PM (2nd, 4th Week of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "The Ark Church",
+      "address": "5040 Roosevelt Rd Chicago, IL 60644",
+      "contact_name": "Vilma Bartolome-Hernandez",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "4:00 PM - 6:00 PM",
+            "9:00 AM - 11:00 AM",
+            "8:00 AM - 10:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Agatha",
+      "address": "3147 W Douglas Blvd Chicago, IL 60623",
+      "contact_name": "William Pouncy",
+      "phone": "773-287-6206",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "William Pouncy",
+          "regular_hours": [
+            "Tuesday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Common Pantry",
+      "address": "3908 N Lincoln Ave Chicago, IL 60613",
+      "phone": "773-327-0553",
+      "website": "www.commonpantry.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "phone": "773-327-0553",
+          "regular_hours": [
+            "Tuesday 4:00 PM - 6:00 PM",
+            "Wednesday 1:00 PM - 4:00 PM",
+            "6:00 PM - 8:00 PM",
+            "Thursday 1:00 PM - 4:00 PM"
+          ]
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "New Morning Star MBC",
+      "address": "206-210 South Hamlin Boulevard Chicago, IL 60624",
+      "contact_name": "Loretta Patterson",
+      "phone": "773-826-3410",
+      "website": "www.nmschurch.org/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Loretta Patterson",
+          "phone": "773-826-3410",
+          "regular_hours": [
+            "Thursday 3:00 PM - 5:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Midwest Asian Health Association",
+      "address": "218 W 26th St Chicago, IL 60616",
+      "contact_name": "Jessica Chen",
+      "phone": "312-225-8659",
+      "email": "Jessicachen@maha-us.org",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Jessica Chen",
+          "phone": "312-225-8659",
+          "email": "Jessicachen@maha-us.org",
+          "regular_hours": [
+            "Wednesday 2:30 PM - 4:30 PM",
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Keystone Baptist Church",
+      "address": "4035 W Maypole Ave Chicago, IL 60624",
+      "contact_name": "Margaret Jackson",
+      "phone": "773-638-7383",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Margaret Jackson",
+          "phone": "773-638-7383",
+          "regular_hours": [
+            "Thursday 10:00 AM - 12:00 PM (2nd, 4th of Month)",
+            "Saturday 10:00 AM - 12:00 PM (1st, 3rd of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Legler Branch",
+      "address": "115 South Pulaski Road Chicago, IL 60624",
+      "contact_name": "Shilo Jefferson",
+      "phone": "312-746-7730",
+      "website": "www.chipublib.org/",
+      "programs": [
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Public Benefits Assistance"
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Shilo Jefferson",
+          "phone": "312-746-7730",
+          "email": "sjeffers@chipublib.org",
+          "regular_hours": [
+            "Thursday 4:00 PM - 7:00 PM",
+            "Sunday 1:00 PM - 4:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Carey Tercentenary AME Church",
+      "address": "1448 S Homan Ave Chicago, IL 60623",
+      "contact_name": "Diane Wiley",
+      "phone": "773-886-1700",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Diane Wiley",
+          "phone": "773-886-1700",
+          "regular_hours": [
+            "Friday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Instituto del Progreso Latino",
+      "address": "2570 S Blue Island Ave Chicago, IL 60608",
+      "contact_name": "Viviana Gonzalez",
+      "phone": "773-890-0055",
+      "website": "www.institutochicago.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Viviana Gonzalez",
+          "phone": "773-890-0055",
+          "email": "v.gonzalez@idpl.org",
+          "regular_hours": [
+            "Tuesday 2:00 PM - 5:00 PM",
+            "Thursday 9:30 AM - 12:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Garfield Park Community Worship Center",
+      "address": "4100 W Jackson Blvd Chicago, IL 60624",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "regular_hours": [
+            "Thursday 1:00 PM - 3:00 PM",
+            "Saturday 11:00 AM - 1:00 PM"
+          ],
+          "special_hours": [
+            "Jan 31, 2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Our Lady of Tepeyac Parish",
+      "address": "3047 W Cermak Rd Chicago, IL 60623",
+      "contact_name": "Claudia Nunez",
+      "phone": "773-521-8400",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Claudia Nunez",
+          "phone": "773-521-8400",
+          "regular_hours": [
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Above and Beyond Free Food Pantry",
+      "address": "817 South Pulaski Road Chicago, IL 60624",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Ken Cozzi",
+          "regular_hours": [
+            "Monday 12:00 PM - 3:00 PM",
+            "Tuesday 12:00 PM - 3:00 PM",
+            "Wednesday 12:00 PM - 3:00 PM",
+            "Thursday 12:00 PM - 3:00 PM",
+            "Friday 12:00 PM - 3:00 PM",
+            "Saturday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Circle Foundation",
+      "address": "3052 S Gratten Ave Chicago, IL 60608",
+      "contact_name": "Heidi Valdez",
+      "phone": "773-663-1143",
+      "website": "cfbentonhouse.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Heidi Valdez",
+          "phone": "773-663-1143",
+          "regular_hours": [
+            "Saturday 9:30 AM - 11:30 AM"
+          ],
+          "special_hours": [
+            "Feb 16, 2026 CLOSED"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        }
+      ]
+    },
+    {
+      "organization_name": "St Francis of Assisi Parish",
+      "address": "932 N Kostner Ave Chicago, IL 60651",
+      "contact_name": "Maria Echeverria",
+      "phone": "312-810-0844",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Maria Echeverria",
+          "phone": "312-810-0844",
+          "regular_hours": [
+            "Wednesday 4:00 PM - 6:00 PM",
+            "Thursday 4:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St James",
+      "address": "2907 S Wabash Ave Chicago, IL 60616",
+      "contact_name": "Catherine Moore",
+      "phone": "312-842-1919",
+      "website": "www.stjameswabash.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Catherine Moore",
+          "phone": "312-842-1919",
+          "regular_hours": [
+            "Tuesday 9:00 AM - 11:00 AM",
+            "Wednesday 9:00 AM - 11:00 AM",
+            "Thursday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Life Impacters Foundation",
+      "address": "2100 N Kildare Ave Chicago, IL 60639",
+      "contact_name": "Yolanda Pena",
+      "phone": "773-647-0000",
+      "email": "lifeimpactersfoundation@gmail.com",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Yolanda Pena",
+          "phone": "773-647-0000",
+          "email": "lifeimpactersfoundation@gmail.com",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM",
+            "Wednesday 1:00 PM - 3:00 PM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Yolanda Pena",
+          "phone": "773-647-0000",
+          "email": "lifeimpactersfoundation@gmail.com",
+          "regular_hours": [
+            "Tuesday 1:00 PM - 3:00 PM",
+            "Wednesday 5:00 PM - 7:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "New Hope Bible Church",
+      "address": "1815 N Kostner Ave Chicago, IL 60639",
+      "contact_name": "Pastor Andy Zivojinovic",
+      "phone": "773-394-2860",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Pastor Andy Zivojinovic",
+          "phone": "773-394-2860",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Eugene DeJesus",
+          "phone": "773-394-2861",
+          "email": "eugene4435@gmail.com",
+          "regular_hours": [
+            "Thursday 4:00 PM - 6:00 PM",
+            "Saturday 11:00 AM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Greater Garfield MBC",
+      "address": "3757 W. Douglas Blvd Chicago, IL 60623",
+      "contact_name": "Cathy Crawford",
+      "phone": "773-277-1700",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Cathy Crawford",
+          "phone": "773-277-1700",
+          "regular_hours": [
+            "Friday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Harmony Community Cares",
+      "address": "1908 S Millard Ave Chicago, IL 60623",
+      "contact_name": "Shonte Little",
+      "phone": "312-971-8869",
+      "website": "HarmonyCommunityCares.org",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Diane Carioscio",
+          "phone": "312-971-8869",
+          "regular_hours": [
+            "Wednesday 10:30 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Cornerstone Community Outreach",
+      "address": "4626 N Clifton Ave Chicago, IL 60640",
+      "contact_name": "Darrell Thiessen",
+      "phone": "773-271-8163",
+      "website": "www.ccolife.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Darrell Thiessen",
+          "phone": "773-271-8163",
+          "email": "dthiessen@ccolife.org",
+          "regular_hours": [
+            "Wednesday 9:30 AM - 11:30 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Ravenswood Community Services Inc.",
+      "address": "4550 N Hermitage Ave Chicago, IL 60640",
+      "contact_name": "Lori Gee",
+      "phone": "773-769-0282",
+      "website": "ravenswoodcommunityservices.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Lori Gee",
+          "phone": "773-769-0282",
+          "regular_hours": [
+            "Tuesday 5:30 PM - 7:30 PM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Lori Gee",
+          "phone": "773-769-0282",
+          "regular_hours": [
+            "Tuesday 5:30 PM - 7:30 PM"
+          ]
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "Wells Temple of Deliverance Community Dev Center",
+      "address": "2739 W Madison St. Chicago, IL 60613",
+      "contact_name": "Sereta Deal",
+      "phone": "773-533-6817",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Clara Deal",
+          "phone": "773-533-6817",
+          "regular_hours": [
+            "Friday 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Life Changers International Church",
+      "address": "1337 W 15th Street Chicago, IL 60608",
+      "contact_name": "Jo Jo Bioh",
+      "phone": "847-645-9100",
+      "email": "jojo.bioh@changinglives.org",
+      "general_hours": "Thursday 10:00 AM - 12:00 PM",
+      "programs": [
+        {
+          "category": "Food Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "St Stephen AME Church",
+      "address": "3042 W Washington Blvd Chicago, IL 60612",
+      "contact_name": "Frederick Paul Douglas",
+      "phone": "773-673-8045",
+      "website": "www.ststephenchicago.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Frederick Paul Douglas",
+          "phone": "773-673-8045",
+          "regular_hours": [
+            "Wednesday 3:00 PM - 5:00 PM",
+            "Thursday 3:00 PM - 5:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Sylvester Parish",
+      "address": "2915 W Palmer St Chicago, IL 60647",
+      "contact_name": "Ada Ortiz",
+      "phone": "773-235-3646",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Ada Ortiz",
+          "phone": "773-235-3646 Ext.12",
+          "regular_hours": [
+            "Wednesday 9:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Marillac St Vincent Family Services",
+      "address": "2859 W Jackson Blvd Chicago, IL 60612",
+      "contact_name": "Holly Yacoumakis",
+      "phone": "773-584-4539",
+      "website": "marillacstvincent.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Holly Yacoumakis",
+          "phone": "773-584-4539",
+          "regular_hours": [
+            "Wednesday 2:30 PM - 5:30 PM",
+            "Friday 10:00 AM - 12:30 PM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Harbor Light Corps",
+      "address": "825 N Christiana Ave Chicago, IL 60651",
+      "contact_name": "Capt. Jennifer Clanton",
+      "phone": "312-667-2380",
+      "website": "centralusa.salvationarmy.org/freedom/harbor-light-center/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Capt. Jennifer Clanton",
+          "phone": "312-667-2380",
+          "regular_hours": [
+            "Monday 1:00 PM - 3:00 PM",
+            "Tuesday 9:00 AM - 12:00 PM",
+            "Wednesday 1:00 PM - 3:00 PM",
+            "Thursday 9:00 AM - 12:00 PM",
+            "Friday 1:00 PM - 3:00 PM"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        }
+      ]
+    },
+    {
+      "organization_name": "Chicago Le Moyne St Church of God",
+      "address": "3301 W LeMoyne St Chicago, IL 60651",
+      "phone": "312-900-5044",
+      "general_hours": "Thursday 3:00 PM - 6:00 PM, Saturday 1:00 PM - 4:00 PM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Yomaira Coca Leyba",
+          "phone": "312-900-5044",
+          "regular_hours": [
+            "Thursday 3:00 PM - 6:00 PM",
+            "Saturday 1:00 PM - 4:00 PM (1st, 3rd of Month)"
+          ],
+          "special_hours": [
+            "Jan 24, 2026 CLOSED",
+            "Jan 31, 2026 CLOSED"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Breakthrough Urban Ministries Inc.",
+      "address": "3334 W Carroll Ave Chicago, IL 60624",
+      "contact_name": "Wendy Daniels",
+      "phone": "872-444-8260",
+      "website": "breakthrough.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Wendy Daniels",
+          "phone": "872-444-8260",
+          "regular_hours": [
+            "2:00 PM - 4:00 PM",
+            "10:00 AM - 2:00 PM",
+            "10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Open Arms Ministry",
+      "address": "2649 N Francisco Ave Chicago, IL 60647",
+      "contact_name": "Nikki Mitchell",
+      "phone": "312-860-9924",
+      "website": "www.openarmsministry.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Nikki Mitchell",
+          "phone": "773-570-0108",
+          "regular_hours": [
+            "Wednesday 4:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "A Safe Haven Foundation",
+      "address": "2750 W Roosevelt Rd Chicago, IL 60608",
+      "contact_name": "Marshall Galbreath",
+      "phone": "773-435-8331",
+      "website": "www.asafehaven.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Marshall Galbreath",
+          "phone": "773-435-8331",
+          "regular_hours": [
+            "Wednesday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Pius V Parish",
+      "address": "1919 S Ashland Ave Chicago, IL 60608",
+      "contact_name": "Socorro Zapata",
+      "phone": "312-226-6161",
+      "website": "stpiusvparish.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Socorro Zapata",
+          "phone": "312-226-6161",
+          "regular_hours": [
+            "Tuesday 2:00 PM - 5:00 PM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Socorro Zapata",
+          "phone": "312-226-6161"
+        }
+      ]
+    },
+    {
+      "organization_name": "Mount Ridge Baptist Church",
+      "address": "2658 W Jackson Blvd, Chicago, IL 60612",
+      "contact_name": "Sharon Moore",
+      "phone": "773-826-7000",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Sharon Moore",
+          "phone": "773-826-7000",
+          "regular_hours": [
+            "Saturday 9:00 AM - 11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "El Mercadito",
+      "address": "3533 West North Avenue Chicago, IL 60647",
+      "contact_name": "Omar Roman",
+      "phone": "773-525-1777",
+      "website": "www.nourishinghopechi.org",
+      "general_hours": "Monday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.), Wednesday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.), Friday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.)",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Omar Roman",
+          "phone": "773-525-1777 Ext.245",
+          "regular_hours": [
+            "Monday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.)",
+            "Wednesday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.)",
+            "Friday 11:00 AM - 2:00 PM (Serving 75 households monthly choice and 75 households monthly pre-packaged/express, for a total capacity of 150 households each day.)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Chicago Hope Inc.",
+      "address": "2505 N Kedzie Blvd Chicago, IL 60647",
+      "contact_name": "Maggie Jordan",
+      "phone": "773-499-9763",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Maggie Jordan",
+          "phone": "773-499-9763",
+          "regular_hours": [
+            "Monday 4:00 PM - 6:00 PM",
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Other",
+          "regular_hours": [
+            "Friday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pilsen Food Pantry",
+      "address": "2124 S Ashland Ave Chicago, IL 60608",
+      "phone": "773-812-3150",
+      "website": "www.pilsenfoodpantry.com",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Steve Wiley",
+          "regular_hours": [
+            "Monday 10:00 AM - 1:30 PM",
+            "Tuesday 10:00 AM - 1:30 PM",
+            "Wednesday 10:00 AM - 1:30 PM",
+            "Thursday 2:00 PM - 5:00 PM",
+            "Friday 10:00 AM - 1:30 PM"
+          ]
+        },
+        {
+          "category": "Nutrition Education/Services"
+        }
+      ]
+    },
+    {
+      "organization_name": "Safer Foods",
+      "address": "808 S Kedzie Ave Chicago, IL 60612",
+      "contact_name": "Tresa Fletcher",
+      "phone": "312-922-2200",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Tresa Fletcher",
+          "phone": "773-365-1320",
+          "regular_hours": [
+            "Monday 3:00 PM - 5:00 PM",
+            "Tuesday 11:00 AM - 1:00 PM",
+            "Wednesday 12:00 PM - 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Mission of Our Lady of the Angels",
+      "address": "3814 West Iowa Street Chicago, IL 60651",
+      "contact_name": "Sr Stephanie Baliga",
+      "phone": "773-486-8431",
+      "website": "www.missionola.com/",
+      "general_hours": "Tuesday 8:00 AM - 10:00 AM",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Sr. Stephanie Baliga",
+          "phone": "773-486-8431",
+          "regular_hours": [
+            "Tuesday 8:00 AM - 10:00 AM"
+          ]
+        },
+        {
+          "category": "Distribution of Non-Food Items",
+          "contact_name": "Sr. Stephanie Baliga",
+          "phone": "773-486-8431",
+          "regular_hours": [
+            "Saturday 8:30 AM - 10:00 AM (FIRST SATURDAY OF THE MONTH ONLY)(1st Week of Month)"
+          ]
+        },
+        {
+          "category": "Distribution of Non-Food Items",
+          "contact_name": "Sr Stephanie Baliga",
+          "phone": "773-486-8431"
+        }
+      ]
+    },
+    {
+      "organization_name": "Nourishing Hope-Sheridan Market",
+      "address": "3945 N Sheridan Rd Chicago, IL 60613",
+      "phone": "773-525-1777",
+      "website": "www.nourishinghopechi.org",
+      "general_hours": "Monday 11:00 AM - 3:00 PM (*Sheridan Market serves 200 households in total every Monday, Wednesday, Friday and Saturday — 90 monthly choice and 110 monthly express. We may close early if we have reached our service capacity for the day.), Wednesday 11:00 AM - 3:00 PM (*Sheridan Market serves 200 households in total every Monday, Wednesday, Friday and Saturday — 90 monthly choice and 110 monthly express. We may close early if we have reached our service capacity for the day.), Thursday 4:00 PM - 7:00 PM (Sheridan Market serves 160 households in total every Thursday, 60 monthly choice and 100 monthly express. We may close early if we have reached our service capacity for the day.), Friday 11:00 AM - 3:00 PM (*Sheridan Market serves 200 households in total every Monday, Wednesday, Friday and Saturday — 90 monthly choice and 110 monthly express. We may close early if we have reached our service capacity for the day. 11:00 AM to 3:00 PM), Saturday 11:00 AM - 3:00 PM (*Sheridan Market serves 200 households in total every Monday, Wednesday, Friday and Saturday — 90 monthly choice and 110 monthly express. We may close early if we have reached our service capacity for the day. 11:00 AM to 3:00 PM)",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Angela Cimarusti Clifford",
+          "phone": "773-525-1777 Ext.234",
+          "regular_hours": [
+            "Monday 11:00 AM - 3:00 PM",
+            "Wednesday 11:00 AM - 3:00 PM",
+            "Thursday 4:00 PM - 7:00 PM",
+            "Friday 11:00 AM - 3:00 PM",
+            "Saturday 11:00 AM - 3:00 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Online Market",
+          "phone": "773-525-1777",
+          "regular_hours": [
+            "Thursday 12:30 PM - 2:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pilsen Wellness Center, Inc.",
+      "address": "2319 S Damen Ave Chicago, IL 60608",
+      "contact_name": "Maria Espejel",
+      "phone": "773-579-8932",
+      "website": "www.pilsenwellnesscenter.org/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Maria Espejel",
+          "phone": "773-579-8932 Ext.274",
+          "regular_hours": [
+            "Thursday 3:00 PM - 5:00 PM",
+            "Friday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Northwestern University Settlement Association",
+      "address": "1400 W Augusta Blvd Chicago, IL 60622",
+      "contact_name": "Yasmin Rodriguez",
+      "phone": "773-278-7471",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Yasmin Rodriguez",
+          "phone": "773-278-7471 Ext.1104",
+          "regular_hours": [
+            "Tuesday 9:00 AM - 12:00 PM",
+            "Wednesday 9:00 AM - 12:00 PM",
+            "Thursday 9:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Stanislaus Kostka",
+      "address": "1351 W Evergreen Ave Chicago, IL 60642",
+      "contact_name": "Sr. Cathy Almagno",
+      "phone": "773-545-8300",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Sr. Cathy Almagno",
+          "phone": "773-545-8300 Ext.1500",
+          "regular_hours": [
+            "Monday 11:30 AM - 12:30 PM",
+            "Tuesday 11:30 AM - 12:30 PM",
+            "Wednesday 11:30 AM - 12:30 PM",
+            "Thursday 11:30 AM - 12:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Matthew Child Advocate",
+      "address": "1000 N Orleans St Chicago, IL 60610",
+      "contact_name": "Mr. Arthur Marbly",
+      "phone": "312-448-1810",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Mr. Arthur Marbly",
+          "phone": "312-448-1810",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Breaking Bread Ministries",
+      "address": "1111 N Wells St Ste 500 Chicago, IL 60610",
+      "phone": "312-805-0408",
+      "website": "www.lasallestreetchurch.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "regular_hours": [
+            "Wednesday 6:00 PM - 7:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "LaSalle Neighbors",
+      "address": "1111 N Wells St STE 301 Chicago, IL 60610",
+      "contact_name": "Randall Blakey",
+      "phone": "773-406-3944"
+    },
+    {
+      "organization_name": "St Teresa of Avila Parish",
+      "address": "1950 N Kenmore Ave Chicago, IL 60614",
+      "phone": "773-405-4503",
+      "website": "teresa.church/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Mairead Reidy",
+          "phone": "773-405-4503",
+          "regular_hours": [
+            "Saturday 9:30 AM - 11:30 AM"
+          ]
+        },
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Mary Ann Miskiewicz",
+          "phone": "773-528-6650",
+          "regular_hours": [
+            "Friday 4:00 PM - 6:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "First Baptist Congregational Church of Chicago",
+      "address": "1613 W Washington Blvd Chicago, IL 60612",
+      "contact_name": "Parker Turner",
+      "phone": "312-243-8047",
+      "website": "www.fbccchicago.net/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Parker Turner",
+          "phone": "312-243-8047",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Meals Ministry",
+      "address": "126 E Chestnut St Chicago, IL 60611",
+      "contact_name": "Mike Usiak",
+      "phone": "312-787-2729",
+      "website": "www.fourthchurch.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Mike Usiak",
+          "phone": "312-787-2729 Ext.2294",
+          "regular_hours": [
+            "Tuesday 11:30 AM - 1:00 PM",
+            "Wednesday 11:30 AM - 1:00 PM",
+            "Thursday 11:30 AM - 1:00 PM",
+            "Sunday 4:00 PM - 5:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Chicago Lights",
+      "address": "126 E Chestnut St Chicago, IL 60611",
+      "contact_name": "Jill Keiser",
+      "phone": "312-640-2571",
+      "website": "chicagolights.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Theresa Thornburg",
+          "phone": "312-640-2571",
+          "email": "tthornburg@chicagolights.org",
+          "regular_hours": [
+            "Tuesday 9:30 AM - 11:30 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Harvest Hub Lincoln Park",
+      "address": "2145 N Halsted St Chicago, IL 60614",
+      "contact_name": "Nathaniel Williams",
+      "phone": "312-278-4130",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Tramaine Martin",
+          "phone": "312-278-4130",
+          "regular_hours": [
+            "Tuesday 9:30 AM - 12:00 PM",
+            "Thursday 9:30 AM - 12:00 PM"
+          ]
+        },
+        {
+          "category": "Employment Services/Workforce Development"
+        },
+        {
+          "category": "Nutrition Education/Services"
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "Chicago Temple Corps Community Center",
+      "address": "1 N Ogden Ave. Chicago, IL 60607",
+      "contact_name": "Kiarar Herry",
+      "phone": "312-492-6803",
+      "website": "centralusa.salvationarmy.org/redshield/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Kiarar Herry",
+          "phone": "312-492-6803",
+          "regular_hours": [
+            "Tuesday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Pilgrim Rest MBC",
+      "address": "1901 W Washington Blvd. Chicago, IL 60612",
+      "contact_name": "Lionel Jackson",
+      "phone": "773-398-9249",
+      "website": "n.pilgrimrestmb.com/",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Lionel Jackson",
+          "phone": "773-398-9249",
+          "regular_hours": [
+            "Wednesday 12:00 PM - 2:00 PM",
+            "Saturday 12:00 PM - 2:00 PM (1st, 2nd, 3rd Week of Month)"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St Aloysius",
+      "address": "1510 N Claremont Ave Chicago, IL 60622",
+      "contact_name": "Manuel Vazquez",
+      "phone": "773-278-4808",
+      "website": "www.staloysiusparish.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Manuel Vazquez",
+          "phone": "773-278-4808",
+          "regular_hours": [
+            "Thursday 9:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Care For Friends",
+      "address": "530 W Fullerton Pkwy Chicago, IL 60614",
+      "contact_name": "Hope Pavich",
+      "phone": "773-932-1010",
+      "email": "hope@careforfriends.org",
+      "website": "careforfriends.org/",
+      "programs": [
+        {
+          "category": "Hot Meal Program",
+          "contact_name": "Hope Pavich",
+          "phone": "773-932-1010",
+          "email": "hope@careforfriends.org",
+          "regular_hours": [
+            "Monday 10:30 AM - 12:30 PM",
+            "Saturday 10:30 AM - 12:30 PM"
+          ]
+        },
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Hope Pavich",
+          "phone": "773-932-1010",
+          "email": "hope@careforfriends.org",
+          "regular_hours": [
+            "Monday 11:00 AM - 1:00 PM",
+            "Saturday 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Our Lady of the Holy Family",
+      "address": "1334 W. Flournoy St. Chicago, IL 60607",
+      "contact_name": "David Deutsch",
+      "phone": "312-519-6200",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "David Deutsch"
+        }
+      ]
+    },
+    {
+      "organization_name": "St John UCC",
+      "address": "2442 W Moffat St. Chicago, IL 60647",
+      "contact_name": "Yahaira Gines",
+      "phone": "773-331-4170",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Yahaira Gines",
+          "phone": "773-331-4170",
+          "regular_hours": [
+            "Thursday 9:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Manna For Life",
+      "address": "2704 W North Ave Chicago, IL 60647",
+      "contact_name": "Yamil Lopez",
+      "phone": "773-384-2200",
+      "website": "www.chicagodreamcenter.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Yamil Lopez",
+          "phone": "773-384-2200",
+          "regular_hours": [
+            "Saturday 10:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "European American Association",
+      "address": "2827 W Division St Chicago, IL 60622",
+      "contact_name": "John Herman",
+      "phone": "773-342-5868",
+      "website": "www.eaachicago.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "John Herman",
+          "phone": "773-342-5868",
+          "regular_hours": [
+            "Thursday 2:00 PM - 4:00 PM"
+          ]
+        },
+        {
+          "category": "Public Benefits Assistance"
+        }
+      ]
+    },
+    {
+      "organization_name": "Midwest Corps Community Center",
+      "address": "20 S Campbell Ave Chicago, IL 60612",
+      "contact_name": "Charlene Williams",
+      "phone": "312-733-4801",
+      "programs": [
+        {
+          "category": "Pantry/grocery distribution",
+          "contact_name": "Charlene Williams",
+          "phone": "312-733-4801",
+          "regular_hours": [
+            "Thursday 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Greater Holy Temple COGIC",
+      "address": "246 N California Ave Chicago, IL 60612",
+      "contact_name": "Maria Diane Wilkerson",
+      "phone": "773-722-9430",
+      "website": "www.greaterholytemple.org/",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "contact_name": "Maria Diane Wilkerson",
+          "phone": "773-722-9430",
+          "regular_hours": [
+            "Friday 1:00 PM - 4:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "The Love Shack",
+      "address": "2751 W 21st Street, Chicago, IL 60623",
+      "description": "24/7 Access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Stone Temple Fridge",
+      "address": "3622 W Douglas Blvd, Chicago, IL 60623",
+      "phone": "773-762-0013",
+      "website": "stonetemplechurch.org",
+      "description": "24/7 access, pantry available",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "Star Farm Fridge",
+      "address": "5155 S Wolcott Ave, Chicago, IL 60609",
+      "description": "24/7 access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "South Shore Fridge",
+      "address": "2465 E 74th St, Chicago, IL 60649",
+      "description": "24/7 Access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "The Port Ministries",
+      "address": "5017 S Hermitage Ave, Chicago, IL 60609",
+      "description": "24/7 Access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Fix Your Plate @ Boxville",
+      "address": "332 E 51st St, Chicago, IL 60615",
+      "description": "24/7 ACCESS. Located in Boxville behind Last Lap Corner Store",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Getting Grown Collective",
+      "address": "6344 S Morgan St, Chicago, IL 60621",
+      "description": "pantry available",
+      "type": "Love Fridge",
+      "programs": [
+        {
+          "category": "Community Fridge"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "Patchwork Farms",
+      "address": "2825 W Chicago Ave, Chicago, IL 60622",
+      "description": "24/7 ACCESS",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Love Fridge at the Plant",
+      "address": "1400 W. 46th St., Chicago, IL 60609",
+      "description": "24/7 ACCESS",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Elpeeda at Honeybear Cafe",
+      "address": "7036 N Clark St, Chicago, IL 60626",
+      "description": "24/7 ACCESS",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Love Fridge at the Breathing Room",
+      "address": "1434 W 51st St, Chicago, IL",
+      "description": "pantry available",
+      "type": "Love Fridge",
+      "programs": [
+        {
+          "category": "Community Fridge"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "Augustana Lutheran Church",
+      "address": "5500 S Woodlawn Ave, Chicago, IL 60637",
+      "description": "24/7 Access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Rodfei Zedek Love Fridge",
+      "address": "5200 S Hyde Park Blvd, Chicago, IL 60615",
+      "phone": "773-752-2770",
+      "website": "www.rodfei.org",
+      "description": "pantry available",
+      "type": "Love Fridge",
+      "programs": [
+        {
+          "category": "Community Fridge"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "Stuffed Love Fridge",
+      "address": "6601 S Pulaski Rd, Chicago, IL 60629",
+      "description": "Good Neighbor Love Fridge (West Lawn). 24/7 ACCESS",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Oasis Community Fridge",
+      "address": "1520 N Kostner Ave, Chicago, IL",
+      "description": "24/7 access fridge, freezer, and pantry",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "The Austin Fridge at New Bethel",
+      "address": "4945 W Division St, Chicago IL 60651",
+      "description": "24/7 ACCESS",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. John's Episcopal Church",
+      "address": "3857 N Kostner Ave, Chicago, IL 60641",
+      "description": "24/7 access fridge and pantry",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        },
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "A House in Austin",
+      "address": "533 N Pine Ave, Chicago, IL",
+      "description": "24/7 access",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Community Pantry on South Drake",
+      "address": "2322 S Drake Ave, Chicago, IL",
+      "description": "Pantry only",
+      "type": "Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution"
+        }
+      ]
+    },
+    {
+      "organization_name": "Veggie Mijas Plant-Based Community Fridge",
+      "address": "2901 W 25th Pl, Chicago, IL 60623",
+      "description": "24/7 accessible",
+      "type": "Love Fridge",
+      "availability": "24/7",
+      "programs": [
+        {
+          "category": "Community Fridge",
+          "regular_hours": "24/7"
+        }
+      ]
+    },
+    {
+      "organization_name": "Blessed Maria Gabriella Parish",
+      "address": "2248 W Washington St, Chicago, IL 60612",
+      "operator": "Blessed Maria Gabriella Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "4th Saturday of each month: 10:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "Blessed Sacrament",
+      "address": "3745 South Paulina, Chicago, IL 60609",
+      "operator": "Blessed Sacrament Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "1st and 3rd Monday every month: 11:30 AM - 2:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "Casa Catalina",
+      "address": "4537 S. Ashland Ave., Chicago, IL 60609",
+      "phone": "(773) 376-9425",
+      "operator": "Catholic Charities of the Archdiocese of Chicago",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Tuesday: 9:30 AM - 11:30 AM; 1:00 PM - 3:00 PM",
+            "Wednesday: 1:00 PM - 5:30 PM",
+            "Thursday: 9:30 AM - 11:30 AM; 1:00 PM - 3:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Epiphany",
+      "address": "2524 South Keeler Avenue, Chicago, IL 60623",
+      "operator": "Epiphany Roman Catholic Church",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "3rd Tuesday of each month: 10:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "Immaculate Conception",
+      "address": "2745 West 44th Street, Chicago, IL 60632",
+      "operator": "Immaculate Conception and Five Holy Martyrs Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Friday: 4:00 PM - 6:00 PM",
+            "Saturday: 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "Messiah & St. Bartholomew",
+      "address": "8255 S Dante Ave, Chicago, IL 60619",
+      "operator": "St. Bartholomew",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Friday: 8:00 AM - 10:00 AM"
+        }
+      ]
+    },
+    {
+      "organization_name": "Our Lady of Fatima",
+      "address": "2751 West 38th Place, Chicago, IL 60632",
+      "operator": "Our Lady of Fatima Shrine of St. Anne",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Saturday: 10:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "Our Lady of Tepeyac",
+      "address": "3047 W Cermak Rd, Chicago, IL 60623",
+      "operator": "Our Lady of Tepeyac Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Saturday: 9:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Agatha",
+      "address": "3147 W Douglas Blvd, Chicago, IL 60623",
+      "operator": "St. Agatha",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Tuesday: 9:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Basil/Visitation",
+      "address": "843 West Garfield (West doors), Chicago, IL 60621",
+      "operator": "St. Basil/Visitation Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Monday/Wednesday: 8:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Gall",
+      "address": "5511 S. Sawyer, Chicago, IL 60629",
+      "operator": "St. Gall",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Monday: 4:00 PM - 6:00 PM",
+            "Wednesday: 11:00 AM - 1:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St. James",
+      "address": "2907 S. Wabash Ave., Chicago, IL 60616",
+      "operator": "St. James Catholic Church",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Tuesday/Wednesday/Thursday: 9:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Martin De Porres",
+      "address": "5112 W Washington Blvd, Chicago, IL 60644",
+      "operator": "St. Simon of Cyrene Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Wednesday/Thursday: 10:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Moses the Black Parish",
+      "address": "331 E. 71st Street, Chicago, IL 60619",
+      "operator": "St. Moses the Black Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": [
+            "Tuesday: 5:30 PM - 7:00 PM",
+            "Wednesday: 10:00 AM - 12:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Philip Neri / Our Lady of Peace Food Pantry",
+      "address": "2132 E 72nd St, Chicago, IL 60649",
+      "operator": "St. Josephine Bakhita Catholic Church",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Tuesday: 10:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Pius V Parish",
+      "address": "1919 S. Ashland Avenue, Chicago, IL 60608",
+      "operator": "St. Pius V Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Tuesday: 2:00 PM - 4:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Sabina",
+      "address": "1120 W. 79th St., Chicago, IL 60620",
+      "operator": "St. Sabina Social Service Center",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Monday-Friday: 9:00 AM - 3:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Stanislaus Kostka",
+      "address": "1351 W Evergreen Ave, Chicago, IL 60612",
+      "operator": "St. Stanislaus Kostka Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Monday/Tuesday/Wednesday/Thursday: 11:30 AM - 12:30 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Sylvester Parish",
+      "address": "2915 W Palmer St, Chicago, IL 60647",
+      "operator": "Jesus, Bread of Life Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Wednesday: 9:00 AM - 12:00 PM"
+        }
+      ]
+    },
+    {
+      "organization_name": "St. Teresa of Avila Parish",
+      "address": "1950 N Kenmore Ave, Chicago, IL 60614",
+      "operator": "St. Teresa of Avila Parish",
+      "type": "Catholic Charities Pantry",
+      "programs": [
+        {
+          "category": "Pantry/Grocery Distribution",
+          "regular_hours": "Saturday: 9:30 AM - 11:30 AM"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_organizations": 218,
+    "data_sources": [
+      "9 PDF documents consolidated",
+      "Love Fridges manual entry",
+      "Catholic Charities"
+    ],
+    "last_updated": "2026-01-22",
+    "types_included": [
+      "Traditional Food Pantries",
+      "Love Fridges",
+      "Catholic Charities Pantries"
+    ]
+  }
+}
