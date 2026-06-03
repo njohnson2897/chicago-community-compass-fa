@@ -41,6 +41,19 @@ Data is currently static but structured to support future integration with live 
 
 ---
 
+## Data Pipeline
+
+Raw pantry data is stored as JSON and normalized at startup via `foodResourcesService.js`, which transforms each record into a consistent internal shape:
+
+- Address strings are parsed into structured components
+- Free-text hours like `"Monday 2:00 PM - 4:00 PM"` are parsed into a structured weekly schedule
+- Geocoded coordinates are attached when available
+- Programs are inspected to derive delivery availability and referral requirements
+
+The normalized resources are filtered client-side by `filterUtils.js` based on location radius, resource type, and availability.
+
+---
+
 ## Architecture & Design Notes
 
 - Data layer separated from UI for easier future ingestion changes  
@@ -51,17 +64,21 @@ This project was informed by my experience working in food access and community 
 
 ---
 
-## Scope
+## Scope & Project History
 
-**In scope**
-- Food pantries and delivery programs  
-- Map + list views  
-- Structured filtering  
+This project was scoped down from a broader **Chicago Community Compass**, a multi-service civic navigator covering food access, benefits navigation, housing support, and workforce development. After assessing what was achievable as a solo project, I made a deliberate decision to build one focused, deployable vertical rather than an immense, incomplete one.
 
-**Intentionally out of scope**
-- Other service categories (housing, healthcare, workforce)  
-- User accounts or admin interfaces  
-- Direct integration with government systems  
+Food access was the natural starting point given my background at the Greater Chicago Food Depository.
+
+**Currently in scope**
+- Food pantries, community fridges, and delivery programs
+- Map + list views
+- Structured filtering
+
+**Plans for future expansion**
+- Additional service verticals (benefits, housing, workforce)
+- Live data feeds from city or nonprofit APIs
+- Admin interface for partner organizations
 
 ---
 
@@ -76,4 +93,14 @@ Create a .env file with:
 
 ```env
 VITE_MAPBOX_ACCESS_TOKEN=your_token_here
+```
+
+---
+
+## Tests
+
+Unit tests cover the core filtering logic using Vitest.
+
+```bash
+npm test
 ```
