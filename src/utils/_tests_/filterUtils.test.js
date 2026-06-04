@@ -85,5 +85,75 @@ describe("filterResources", () => {
       expect(result).toHaveLength(1);
       expect(result[0].id).toBe("org-near");
     });
+
+    it("sorts results by distance, nearest first", () => {
+  const resources = [
+    makeFakeResource({
+      id: "org-far",
+      address: {
+        street: "456 Far St",
+        city: "Chicago",
+        state: "IL",
+        zip: "60614",
+        coordinates: [-87.6298, 41.9281],
+      },
+    }),
+    makeFakeResource({
+      id: "org-near",
+      address: {
+        street: "123 Close St",
+        city: "Chicago",
+        state: "IL",
+        zip: "60601",
+        coordinates: [-87.6298, 41.8831],
+      },
+    }),
+  ];
+
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 10,
+  };
+
+  const result = filterResources(resources, filters);
+
+  expect(result[0].id).toBe("org-near");
+  expect(result[1].id).toBe("org-far");
+});
+
+it("excludes resources that don't match the type filter", () => {
+  const resources = [
+    makeFakeResource({ id: "org-pantry", type: "food_pantry" }),
+    makeFakeResource({ id: "org-fridge", type: "love_fridge" }),
+  ];
+
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 10,
+    type: "food_pantry",
+  };
+
+  const result = filterResources(resources, filters);
+
+  expect(result).toHaveLength(1);
+  expect(result[0].id).toBe("org-pantry");
+});
+
+it("attaches distanceMiles to each result", () => {
+  const resources = [makeFakeResource()];
+
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 1,
+  };
+
+  const result = filterResources(resources, filters);
+
+  expect(typeof result[0].distanceMiles).toBe("number");
+  expect(result[0].distanceMiles).toBeGreaterThanOrEqual(0);
+});
   
   });
