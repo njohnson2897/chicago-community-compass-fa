@@ -155,5 +155,53 @@ it("attaches distanceMiles to each result", () => {
   expect(typeof result[0].distanceMiles).toBe("number");
   expect(result[0].distanceMiles).toBeGreaterThanOrEqual(0);
 });
+
+it("filters by searchText matching resource name", () => {
+  const resources = [
+    makeFakeResource({ id: "org-match", name: "Pilsen Food Pantry" }),
+    makeFakeResource({ id: "org-no-match", name: "Northside Community Church" }),
+  ];
+
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 10,
+    searchText: "pilsen",
+  };
+
+  const result = filterResources(resources, filters);
+
+  expect(result).toHaveLength(1);
+  expect(result[0].id).toBe("org-match");
+});
+
+it("excludes resources that have no coordinates", () => {
+  const resources = [
+    makeFakeResource({ id: "org-with-coords" }),
+    makeFakeResource({
+      id: "org-no-coords",
+      address: {
+        street: "123 Main St",
+        city: "Chicago",
+        state: "IL",
+        zip: "60601",
+        coordinates: null,
+      },
+    }),
+  ];
+
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 10,
+  };
+
+  const result = filterResources(resources, filters);
+
+  expect(result).toHaveLength(1);
+  expect(result[0].id).toBe("org-with-coords");
+});
+
+
   
   });
