@@ -1,24 +1,35 @@
-import { filterResources, getDefaultFilters } from "../filterResources.ts";
+/// <reference types="vitest/globals" />
+
+import { filterResources, getDefaultFilters, type FoodResource } from "../filterResources";
 
 // Create a minimal fake resource with coordinates, used across tests.
 
-function makeFakeResource(overrides = {}) {
-    return {
-        id: "org-1-test",
-        name: "Test Pantry",
-        type: "food_pantry",
-        address: {
-          street: "123 Main St",
-          city: "Chicago",
-          state: "IL",
-          zip: "60601",
-          coordinates: [-87.6298, 41.8781], // downtown Chicago [lng, lat]
-        },
-        hours: null,
-        hasDelivery: false,
-        ...overrides,
-      };
-    }
+function makeFakeResource(overrides: Partial<FoodResource> = {}): FoodResource {
+  return {
+    id: "org-1-test",
+    name: "Test Pantry",
+    type: "food_pantry",
+    description: "",
+    address: {
+      street: "123 Main St",
+      city: "Chicago",
+      state: "IL",
+      zip: "60601",
+      fullAddress: "123 Main St, Chicago, IL 60601",
+      coordinates: [-87.6298, 41.8781],
+    },
+    hours: null,
+    hasDelivery: false,
+    requiresReferral: null,
+    contact: {
+      phone: null,
+      email: null,
+      website: null,
+      contactName: null,
+    },
+    ...overrides,
+  };
+}
 
 // Test suite
 
