@@ -36,6 +36,7 @@ This project consolidates that information into a searchable, map-based interfac
 - Material UI  
 - Mapbox GL JS (map + geocoding)  
 - Vite  
+- TypeScript (core data and filtering layer)
 
 Data is currently static but structured to support future integration with live city or nonprofit feeds.
 
@@ -56,7 +57,8 @@ The normalized resources are filtered client-side by `filterUtils.js` based on l
 
 ## Architecture & Design Notes
 
-- Data layer separated from UI for easier future ingestion changes  
+- Data layer separated from UI for easier future ingestion changes
+- Core data and filtering layer fully migrated to TypeScript (React component migration in progress)
 - Filtering logic modeled on real pantry constraints (short service windows, referral-only programs, delivery sign-up requirements)  
 - List view functions as both an accessibility feature and a mobile-friendly alternative to map interaction  
 
