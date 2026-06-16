@@ -80,3 +80,41 @@ describe("hasHoursToday", () => {
     expect(hasHoursToday(resource)).toBe(false);
   });
 });
+
+describe("isOpenNow", () => {
+  it("returns false when resource has no hours", () => {
+    const resource = makeResourceWithHours({ hours: null });
+    expect(isOpenNow(resource)).toBe(false);
+  });
+
+  it("returns false when today's hours are null", () => {
+    const resource = makeResourceWithHours({
+      hours: {
+        monday: null,
+        tuesday: null,
+        wednesday: null,
+        thursday: null,
+        friday: null,
+        saturday: null,
+        sunday: null,
+      },
+    });
+    expect(isOpenNow(resource)).toBe(false);
+  });
+
+  it("returns true when current time is within open hours", () => {
+    // Set hours to cover the full 24-hour window so this passes any time of day
+    const resource = makeResourceWithHours({
+      hours: {
+        monday: { open: "00:00", close: "23:59", isOpen: true },
+        tuesday: { open: "00:00", close: "23:59", isOpen: true },
+        wednesday: { open: "00:00", close: "23:59", isOpen: true },
+        thursday: { open: "00:00", close: "23:59", isOpen: true },
+        friday: { open: "00:00", close: "23:59", isOpen: true },
+        saturday: { open: "00:00", close: "23:59", isOpen: true },
+        sunday: { open: "00:00", close: "23:59", isOpen: true },
+      },
+    });
+    expect(isOpenNow(resource)).toBe(true);
+  });
+});
