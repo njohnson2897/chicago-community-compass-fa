@@ -1,5 +1,5 @@
 /// <reference types="vitest/globals" />
-import { hasHoursToday, isOpenNow } from "../foodResourcesService";
+import { hasHoursToday, isOpenNow, getHoursToday } from "../foodResourcesService";
 import type { FoodResource } from "../../utils/filterResources";
 
 // Helper fake resource creation
@@ -116,5 +116,43 @@ describe("isOpenNow", () => {
       },
     });
     expect(isOpenNow(resource)).toBe(true);
+  });
+});
+
+describe("getHoursToday", () => {
+  it("returns null when resource has no hours", () => {
+    const resource = makeResourceWithHours({ hours: null });
+    expect(getHoursToday(resource)).toBeNull();
+  });
+
+  it("returns null when today's hours are null", () => {
+    const resource = makeResourceWithHours({
+      hours: {
+        monday: null,
+        tuesday: null,
+        wednesday: null,
+        thursday: null,
+        friday: null,
+        saturday: null,
+        sunday: null,
+      },
+    });
+    expect(getHoursToday(resource)).toBeNull();
+  });
+
+  it("returns a formatted hours string when today's hours exist", () => {
+    // Open every day with the same hours, so this passes regardless of today
+    const resource = makeResourceWithHours({
+      hours: {
+        monday: { open: "09:00", close: "17:00", isOpen: true },
+        tuesday: { open: "09:00", close: "17:00", isOpen: true },
+        wednesday: { open: "09:00", close: "17:00", isOpen: true },
+        thursday: { open: "09:00", close: "17:00", isOpen: true },
+        friday: { open: "09:00", close: "17:00", isOpen: true },
+        saturday: { open: "09:00", close: "17:00", isOpen: true },
+        sunday: { open: "09:00", close: "17:00", isOpen: true },
+      },
+    });
+    expect(getHoursToday(resource)).toBe("09:00 – 17:00");
   });
 });
