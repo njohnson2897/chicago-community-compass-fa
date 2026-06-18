@@ -1,5 +1,5 @@
 /// <reference types="vitest/globals" />
-import { hasHoursToday, isOpenNow, getHoursToday } from "../foodResourcesService";
+import { hasHoursToday, isOpenNow, getHoursToday, sortResources } from "../foodResourcesService";
 import type { FoodResource } from "../../utils/filterResources";
 
 // Helper fake resource creation
@@ -154,5 +154,34 @@ describe("getHoursToday", () => {
       },
     });
     expect(getHoursToday(resource)).toBe("09:00 – 17:00");
+  });
+});
+
+describe("sortResources", () => {
+  it("sorts resources alphabetically by name (default)", () => {
+    const resources = [
+      makeResourceWithHours({ id: "org-z", name: "Zion Pantry" }),
+      makeResourceWithHours({ id: "org-a", name: "Abundant Life Pantry" }),
+      makeResourceWithHours({ id: "org-m", name: "Mercy Food Bank" }),
+    ];
+
+    const result = sortResources(resources);
+
+    expect(result[0].id).toBe("org-a");
+    expect(result[1].id).toBe("org-m");
+    expect(result[2].id).toBe("org-z");
+  });
+
+  it("does not mutate the original array", () => {
+    const resources = [
+      makeResourceWithHours({ id: "org-z", name: "Zion Pantry" }),
+      makeResourceWithHours({ id: "org-a", name: "Abundant Life Pantry" }),
+    ];
+
+    sortResources(resources);
+
+    // original order should be unchanged
+    expect(resources[0].id).toBe("org-z");
+    expect(resources[1].id).toBe("org-a");
   });
 });
