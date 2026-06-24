@@ -1,5 +1,5 @@
 /// <reference types="vitest/globals" />
-import { hasHoursToday, isOpenNow, getHoursToday, sortResources } from "../foodResourcesService";
+import { hasHoursToday, isOpenNow, getHoursToday, sortResources, getResourceById, getAllResources } from "../foodResourcesService";
 import type { FoodResource } from "../../utils/filterResources";
 
 // Helper fake resource creation
@@ -183,5 +183,28 @@ describe("sortResources", () => {
     // original order should be unchanged
     expect(resources[0].id).toBe("org-z");
     expect(resources[1].id).toBe("org-a");
+  });
+});
+
+describe("getResourceById", () => {
+  it("returns the correct resource when given a valid id", () => {
+    // Get a real id from the actual data rather than making one up
+    const allResources = getAllResources();
+    const firstResource = allResources[0];
+
+    const result = getResourceById(firstResource.id);
+
+    expect(result).not.toBeNull();
+    expect(result?.id).toBe(firstResource.id);
+  });
+
+  it("returns null when given an id that does not exist", () => {
+    const result = getResourceById("org-does-not-exist");
+    expect(result).toBeNull();
+  });
+
+  it("returns null when given an empty string", () => {
+    const result = getResourceById("");
+    expect(result).toBeNull();
   });
 });
