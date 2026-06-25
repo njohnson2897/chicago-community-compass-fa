@@ -5,7 +5,7 @@ A data-driven civic web application for locating food access resources across Ch
 This project explores how geospatial interfaces and realistic filtering can reduce friction in navigating fragmented food pantry and delivery systems.
 
 **Live Demo:**  
-https://chicago-community-compass-fa.onrender.com
+https://chicago-community-compass-fa.vercel.app/
 
 ---
 
