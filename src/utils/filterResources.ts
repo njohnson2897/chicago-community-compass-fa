@@ -74,6 +74,7 @@ export function filterResources(
   filters: FilterState
 ): FoodResource[] {
   const center = filters.searchCenter;
+  // Default to 1 mile if radiusMiles is missing, 0, or non-numeric
   const radiusMiles = Number(filters.radiusMiles) || 1;
 
   if (
@@ -93,6 +94,7 @@ export function filterResources(
 
   filtered = filtered
     .map((resource) => {
+      // Coordinates are stored as [lng, lat] to match GeoJSON/Mapbox convention
       const [lng, lat] = resource.address.coordinates as [number, number];
       const distanceMiles = haversineMiles(center, { lat, lng });
       return { ...resource, distanceMiles };
