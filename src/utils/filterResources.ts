@@ -75,7 +75,7 @@ export function filterResources(
 ): FoodResource[] {
   const center = filters.searchCenter;
   // Default to 1 mile if radiusMiles is missing, 0, or non-numeric
-  const radiusMiles = Number(filters.radiusMiles) || 1;
+  const radiusMiles = Number(filters.radiusMiles) > 0 ? Number(filters.radiusMiles) : 1;
 
   if (
     !center ||

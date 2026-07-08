@@ -213,6 +213,30 @@ it("excludes resources that have no coordinates", () => {
   expect(result[0].id).toBe("org-with-coords");
 });
 
+it("returns empty array when resources array is empty", () => {
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 1,
+  };
 
-  
-  });
+  const result = filterResources([], filters);
+
+  expect(result).toEqual([]);
+});
+
+it("treats radiusMiles of 0 as default radius of 1 mile", () => {
+  const resources = [makeFakeResource()];
+  const filters = {
+    ...getDefaultFilters(),
+    searchCenter: { lat: 41.8781, lng: -87.6298 },
+    radiusMiles: 0,
+  };
+
+  const result = filterResources(resources, filters);
+
+  // 0 radius defaults to 1 mile, resource at same coords should be included
+  expect(result).toHaveLength(1);
+});
+
+});
