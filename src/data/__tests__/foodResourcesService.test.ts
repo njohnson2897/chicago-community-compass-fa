@@ -1,6 +1,6 @@
 /// <reference types="vitest/globals" />
 import { hasHoursToday, isOpenNow, getHoursToday, sortResources, getResourceById, getAllResources } from "../foodResourcesService";
-import type { FoodResource } from "../../utils/filterResources";
+import type { FoodResource, WeeklyHours } from "../../utils/filterResources";
 import { RESOURCE_TYPES } from "../../utils/resourceTypes";
 
 
@@ -53,7 +53,7 @@ describe("hasHoursToday", () => {
     // Test will pass any day except Sunday
     const today = new Date()
       .toLocaleDateString("en-US", { weekday: "long" })
-      .toLowerCase() as keyof typeof resource.hours;
+      .toLowerCase() as keyof WeeklyHours; 
     
     const resource = makeResourceWithHours();
     const todayHours = resource.hours?.[today];
