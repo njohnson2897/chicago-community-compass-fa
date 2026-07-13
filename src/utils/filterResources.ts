@@ -7,6 +7,8 @@
 import { hasHoursToday } from "../data/foodResourcesService";
 import { haversineMiles } from "./locationUtils";
 
+import { RESOURCE_TYPES, type ResourceType } from "./resourceTypes";
+
 // --- Type definitions ---
 
 export interface Coordinates {
@@ -42,7 +44,7 @@ export interface WeeklyHours {
 export interface FoodResource {
   id: string;
   name: string;
-  type: string;
+  type: ResourceType;
   description: string;
   address: Address;
   hours: WeeklyHours | null;

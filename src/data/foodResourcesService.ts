@@ -1,5 +1,6 @@
 import pantryData from "./pantryData.json";
 import type { FoodResource, WeeklyHours, Address } from "../utils/filterResources";
+import { RESOURCE_TYPES } from "../utils/resourceTypes";
 
 // --- Raw JSON types ---
 
@@ -251,7 +252,7 @@ function normalizeResource(raw: RawPantryRecord, index: number): FoodResource {
   return {
     id: idSafe,
     name,
-    type: "food_pantry",
+    type: RESOURCE_TYPES.FOOD_PANTRY,
     description: buildDescription(name, programs),
     address,
     hours,

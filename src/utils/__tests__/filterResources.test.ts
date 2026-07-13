@@ -1,6 +1,7 @@
 /// <reference types="vitest/globals" />
 
 import { filterResources, getDefaultFilters, type FoodResource } from "../filterResources";
+import { RESOURCE_TYPES } from "../resourceTypes";
 
 // Create a minimal fake resource with coordinates, used across tests.
 
@@ -8,7 +9,7 @@ function makeFakeResource(overrides: Partial<FoodResource> = {}): FoodResource {
   return {
     id: "org-1-test",
     name: "Test Pantry",
-    type: "food_pantry",
+    type: RESOURCE_TYPES.FOOD_PANTRY,
     description: "",
     address: {
       street: "123 Main St",

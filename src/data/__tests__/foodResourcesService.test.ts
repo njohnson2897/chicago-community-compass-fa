@@ -1,6 +1,8 @@
 /// <reference types="vitest/globals" />
 import { hasHoursToday, isOpenNow, getHoursToday, sortResources, getResourceById, getAllResources } from "../foodResourcesService";
 import type { FoodResource } from "../../utils/filterResources";
+import { RESOURCE_TYPES } from "../../utils/resourceTypes";
+
 
 // Helper fake resource creation
 function makeResourceWithHours(
@@ -9,7 +11,7 @@ function makeResourceWithHours(
   return {
     id: "org-test",
     name: "Test Pantry",
-    type: "food_pantry",
+    type: RESOURCE_TYPES.FOOD_PANTRY,
     description: "",
     address: {
       street: "123 Main St",
