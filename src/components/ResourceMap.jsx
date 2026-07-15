@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { zoomForRadiusMiles } from "../utils/locationUtils";
+import { RESOURCE_TYPES } from "../utils/resourceTypes";
 
 // Mapbox access token should be set in .env file
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || "";
@@ -118,7 +119,7 @@ function ResourceMap({
       const addressLine = addressParts.join(", ");
       const id = escapeHtml(resource.id);
       const typeLabel =
-        resource.type === "food_pantry" ? "Food Pantry" : "Food Delivery";
+        resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "Food Pantry" : "Food Delivery";
 
       const popup = new mapboxgl.Popup({
         offset: 25,
@@ -137,7 +138,7 @@ function ResourceMap({
 
       // Create marker
       const marker = new mapboxgl.Marker({
-        color: resource.type === "food_pantry" ? "#1976d2" : "#dc004e",
+        color: resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "#1976d2" : "#dc004e",
       })
         .setLngLat([lng, lat])
         .setPopup(popup)

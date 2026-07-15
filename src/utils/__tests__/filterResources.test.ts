@@ -136,7 +136,7 @@ describe("filterResources", () => {
 
 it("excludes resources that don't match the type filter", () => {
   const resources = [
-    makeFakeResource({ id: "org-pantry", type: "food_pantry" }),
+    makeFakeResource({ id: "org-pantry", type: RESOURCE_TYPES.FOOD_PANTRY }),
     makeFakeResource({ id: "org-fridge", type: "love_fridge" }),
   ];
 
@@ -144,7 +144,7 @@ it("excludes resources that don't match the type filter", () => {
     ...getDefaultFilters(),
     searchCenter: { lat: 41.8781, lng: -87.6298 },
     radiusMiles: 10,
-    type: "food_pantry",
+    type: RESOURCE_TYPES.FOOD_PANTRY,
   };
 
   const result = filterResources(resources, filters);

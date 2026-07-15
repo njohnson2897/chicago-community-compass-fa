@@ -21,6 +21,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
 import { getResourceById, hasHoursToday } from "../data/foodResourcesService";
+import { RESOURCE_TYPES } from "../utils/resourceTypes";
 
 function ServiceDetails() {
   const { id } = useParams();
@@ -99,12 +100,12 @@ function ServiceDetails() {
             <Box sx={{ display: "flex", gap: 1, mt: 1 }}>
               <Chip
                 label={
-                  resource.type === "food_pantry"
+                  resource.type === RESOURCE_TYPES.FOOD_PANTRY
                     ? "Food Pantry"
                     : "Food Delivery"
                 }
                 color={
-                  resource.type === "food_pantry" ? "primary" : "secondary"
+                  resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "primary" : "secondary"
                 }
               />
               {openToday && <Chip label="Open today" color="success" />}
