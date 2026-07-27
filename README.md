@@ -35,7 +35,7 @@ This project consolidates that information into a searchable, map-based interfac
 - React Router 6  
 - Material UI  
 - Mapbox GL JS (map + geocoding)  
-- Vite  
+- Vite / Vitest
 - TypeScript (core data and filtering layer)
 
 Data is currently static but structured to support future integration with live city or nonprofit feeds.
