@@ -232,66 +232,6 @@ function ServiceDetails() {
           </Grid>
         </Grid>
 
-        {resource.eligibility && (
-          <>
-            <Divider sx={{ my: 3 }} />
-            <Typography variant="h6" gutterBottom>
-              Eligibility
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {resource.eligibility}
-            </Typography>
-          </>
-        )}
-
-        {resource.hasDelivery && resource.deliveryDetails && (
-          <>
-            <Divider sx={{ my: 3 }} />
-            <Typography variant="h6" gutterBottom>
-              Delivery
-            </Typography>
-            <List dense>
-              <ListItem>
-                <ListItemText
-                  primary="Enrollment Required"
-                  secondary={
-                    resource.deliveryDetails.enrollmentRequired ? "Yes" : "No"
-                  }
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Delivery Days"
-                  secondary={resource.deliveryDetails.deliveryDays.join(", ")}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Delivery Fee"
-                  secondary={resource.deliveryDetails.deliveryFee}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Coverage Area"
-                  secondary={resource.deliveryDetails.coverageArea}
-                />
-              </ListItem>
-            </List>
-          </>
-        )}
-
-        {resource.notes && (
-          <>
-            <Divider sx={{ my: 3 }} />
-            <Typography variant="h6" gutterBottom>
-              Notes
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {resource.notes}
-            </Typography>
-          </>
-        )}
       </Paper>
     </Box>
   );
