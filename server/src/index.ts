@@ -14,5 +14,7 @@ app.get("/api/health", (_req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  const env = process.env.NODE_ENV || "development";
+  console.log(`Server running on port ${PORT} [${env}]`);
+  console.log(`Health check: http://localhost:${PORT}/api/health`);
 });
