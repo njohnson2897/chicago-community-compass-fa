@@ -13,6 +13,10 @@ app.get("/api/health", (_req, res) => {
   res.json({ status: "ok" });
 });
 
+app.use((_req, res) => {
+  res.status(404).json({ error: "Not found" });
+});
+
 app.listen(PORT, () => {
   const env = process.env.NODE_ENV || "development";
   console.log(`Server running on port ${PORT} [${env}]`);
