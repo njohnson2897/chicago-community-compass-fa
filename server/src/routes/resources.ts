@@ -12,10 +12,17 @@ const __dirname = dirname(__filename);
 const dataPath = join(__dirname, "../../../src/data/pantryData.json");
 const rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
 
-router.get("/", (_req, res) => {
+router.get("/", (req, res) => {
+  const limit = parseInt(req.query.limit as string, 10);
+  let results = rawData.food_pantries;
+
+  if (!isNaN(limit) && limit > 0) {
+    results = results.slice(0, limit);
+  }
+
   res.json({
-    data: rawData.food_pantries,
-    total: rawData.food_pantries.length,
+    data: results,
+    total: results.length,
   });
 });
 
