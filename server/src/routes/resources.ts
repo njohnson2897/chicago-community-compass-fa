@@ -14,7 +14,15 @@ const rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
 
 router.get("/", (req, res) => {
   const limit = parseInt(req.query.limit as string, 10);
+  const type = req.query.type as string | undefined;
+
   let results = rawData.food_pantries;
+
+  if (type) {
+    results = results.filter(
+      (r: { type?: string }) => r.type === type
+    );
+  }
 
   if (!isNaN(limit) && limit > 0) {
     results = results.slice(0, limit);
