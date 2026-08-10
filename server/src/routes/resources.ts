@@ -10,7 +10,14 @@ const __dirname = dirname(__filename);
 
 // Load and parse pantry data
 const dataPath = join(__dirname, "../../../src/data/pantryData.json");
-const rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
+
+let rawData: { food_pantries: { type?: string }[] };
+try {
+  rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
+} catch (err) {
+  console.error(`Failed to load pantry data from ${dataPath}:`, err);
+  rawData = { food_pantries: [] };
+}
 
 router.get("/", (req, res) => {
   const limit = parseInt(req.query.limit as string, 10);
