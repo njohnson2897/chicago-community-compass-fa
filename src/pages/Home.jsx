@@ -8,7 +8,12 @@ function Home() {
   return (
     <Container maxWidth="lg">
       <Box sx={{ textAlign: "center", mb: 6 }}>
-        <RestaurantIcon sx={{ fontSize: 80, color: "primary.main", mb: 2 }} />
+        <Box
+          component="img"
+          src="/icon.png"
+          alt="Chicago Community Compass"
+          sx={{ width: 150, height: 150, mb: 2 }}
+        />
         <Typography variant="h2" component="h1" gutterBottom>
           Chicago Community Compass
         </Typography>
