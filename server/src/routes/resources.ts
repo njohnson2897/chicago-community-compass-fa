@@ -11,7 +11,7 @@ const __dirname = dirname(__filename);
 // Load and parse pantry data
 const dataPath = join(__dirname, "../../../src/data/pantryData.json");
 
-let rawData: { food_pantries: { type?: string }[] };
+let rawData: { food_pantries: { type?: string; address?: string }[] };
 try {
   rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
 } catch (err) {
@@ -22,12 +22,17 @@ try {
 router.get("/", (req, res) => {
   const limit = parseInt(req.query.limit as string, 10);
   const type = req.query.type as string | undefined;
+  const zip = req.query.zip as string | undefined;
 
   let results = rawData.food_pantries;
 
   if (type) {
-    results = results.filter(
-      (r: { type?: string }) => r.type === type
+    results = results.filter((r: { type?: string }) => r.type === type);
+  }
+
+  if (zip) {
+    results = results.filter((r: { address?: string }) =>
+      typeof r.address === "string" && r.address.includes(zip)
     );
   }
 
