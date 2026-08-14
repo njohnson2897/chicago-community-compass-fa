@@ -128,7 +128,12 @@ function Layout({ children }) {
               flexGrow: 1,
             }}
           >
-            <RestaurantIcon sx={{ mr: 2 }} />
+              <Box
+          component="img"
+          src="/icon.png"
+          alt="Chicago Community Compass"
+          sx={{ width: 60, height: 60, mr: 1, mb: 0.5, mt: 0.5}}
+        />
             <Typography variant="h6" component="span">
               Chicago Community Compass
             </Typography>
