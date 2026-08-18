@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import {
   AppBar,
@@ -17,10 +17,12 @@ import {
   useTheme,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import RestaurantIcon from "@mui/icons-material/Restaurant";
 
-function Layout({ children }) {
-  // eslint-disable-line react/prop-types -- Layout is a wrapper; children is standard
+interface LayoutProps {
+  children: ReactNode;
+}
+
+function Layout({ children }: LayoutProps) {
   const location = useLocation();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
