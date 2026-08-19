@@ -13,8 +13,15 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
 import { hasHoursToday, getHoursToday } from "../data/foodResourcesService";
+import type { FoodResource } from "../utils/filterResources";
 
-function ResourceList({ resources, onResourceClick, showDistance }) {
+interface ResourceListProps {
+  resources: FoodResource[];
+  onResourceClick: (id: string) => void;
+  showDistance?: boolean;
+}
+
+function ResourceList({ resources, onResourceClick, showDistance }: ResourceListProps) {
   if (!resources || resources.length === 0) {
     return (
       <Box sx={{ p: 4, textAlign: "center" }}>
