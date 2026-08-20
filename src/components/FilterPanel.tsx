@@ -14,16 +14,25 @@ import {
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import PlaceIcon from "@mui/icons-material/Place";
+import type { FilterState } from "../utils/filterResources";
+import type { FormEvent } from "react";
 
-function FilterPanel({ filters, onFilterChange, onSearch, isSearching }) {
-  const handleChange = (field, value) => {
+interface FilterPanelProps {
+  filters: FilterState;
+  onFilterChange: (filters: FilterState) => void;
+  onSearch?: () => void;
+  isSearching?: boolean;
+}
+
+function FilterPanel({ filters, onFilterChange, onSearch, isSearching }: FilterPanelProps) {
+  const handleChange = (field: keyof FilterState, value: FilterState[keyof FilterState]) => {
     onFilterChange({
       ...filters,
       [field]: value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (onSearch) onSearch();
   };
