@@ -3,15 +3,22 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { zoomForRadiusMiles } from "../utils/locationUtils";
 import { RESOURCE_TYPES } from "../utils/resourceTypes";
+import type { FoodResource, Coordinates } from "../utils/filterResources";
+
+declare global {
+  interface Window {
+    handleResourceClick?: (id: string) => void;
+  }
+}
 
 // Mapbox access token should be set in .env file
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || "";
 
-const CHICAGO_CENTER = [-87.6298, 41.8781];
+const CHICAGO_CENTER: [number, number] = [-87.6298, 41.8781];
 const INITIAL_ZOOM = 11;
 
 /** Escape for safe use inside HTML attributes and text. */
-function escapeHtml(str) {
+function escapeHtml(str: unknown): string {
   if (str == null) return "";
   const s = String(str);
   return s
@@ -22,20 +29,28 @@ function escapeHtml(str) {
     .replace(/'/g, "&#39;");
 }
 
+interface ResourceMapProps {
+  resources: FoodResource[];
+  onResourceClick: (id: string) => void;
+  searchCenter: Coordinates | null;
+  radiusMiles?: number;
+}
+
 function ResourceMap({
   resources,
   onResourceClick,
   searchCenter,
   radiusMiles = 1,
-}) {
-  const mapContainer = useRef(null);
-  const map = useRef(null);
-  const markersRef = useRef([]);
-  const [mapError, setMapError] = useState(null);
+}: ResourceMapProps) {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const map = useRef<mapboxgl.Map | null>(null);
+  const markersRef = useRef<mapboxgl.Marker[]>([]);
+  const [mapError, setMapError] = useState<string | null>(null);
   const [noGeoData, setNoGeoData] = useState(false);
 
   useEffect(() => {
     if (map.current) return;
+    if (!mapContainer.current) return;
 
     if (!MAPBOX_TOKEN) {
       setMapError(
@@ -74,6 +89,7 @@ function ResourceMap({
   // Update markers when resources change
   useEffect(() => {
     if (!map.current) return;
+    const mapInstance = map.current;
 
     // Clear existing markers
     markersRef.current.forEach((marker) => marker.remove());
@@ -94,7 +110,7 @@ function ResourceMap({
       typeof searchCenter.lat === "number" &&
       typeof searchCenter.lng === "number"
     ) {
-      const center = [searchCenter.lng, searchCenter.lat];
+      const center: [number, number] = [searchCenter.lng, searchCenter.lat];
       map.current.setCenter(center);
       const zoom = zoomForRadiusMiles(radiusMiles);
       map.current.setZoom(zoom);
@@ -106,7 +122,7 @@ function ResourceMap({
 
     // Add markers for each resource
     resourcesWithCoords.forEach((resource) => {
-      const [lng, lat] = resource.address.coordinates;
+      const [lng, lat] = resource.address.coordinates as [number, number];
 
       // Create a popup with styled content
       const name = escapeHtml(resource.name);
@@ -142,7 +158,7 @@ function ResourceMap({
       })
         .setLngLat([lng, lat])
         .setPopup(popup)
-        .addTo(map.current);
+        .addTo(mapInstance);;
 
       // Store reference for cleanup
       markersRef.current.push(marker);
