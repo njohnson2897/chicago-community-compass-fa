@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import type { MouseEvent } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import {
   Alert,
@@ -24,6 +25,7 @@ import ResourceList from "../components/ResourceList";
 import FilterPanel from "../components/FilterPanel";
 import { getAllResources } from "../data/foodResourcesService";
 import { filterResources, getDefaultFilters } from "../utils/filterResources";
+import type { FoodResource, FilterState, Coordinates } from "../utils/filterResources";
 import { geocodeSearchQuery } from "../utils/locationUtils";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || "";
@@ -35,17 +37,17 @@ function MapView() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   // Restore map state when returning from Service Details (Back to Resources)
-  const savedState = location.state?.mapState;
+  const savedState = (location.state as { mapState?: { filters?: FilterState; viewMode?: "list" | "map"; page?: number } } | null)?.mapState;
 
   const [resources] = useState(() => getAllResources());
   const [filters, setFilters] = useState(() =>
     savedState?.filters ? savedState.filters : getDefaultFilters(),
   );
-  const [filteredResources, setFilteredResources] = useState([]);
-  const [viewMode, setViewMode] = useState(savedState?.viewMode ?? "list");
-  const [page, setPage] = useState(savedState?.page ?? 1);
+  const [filteredResources, setFilteredResources] = useState<FoodResource[]>([]);
+  const [viewMode, setViewMode] = useState<"list" | "map">(savedState?.viewMode ?? "list");
+  const [page, setPage] = useState<number>(savedState?.page ?? 1);
   const [isSearching, setIsSearching] = useState(false);
-  const [searchError, setSearchError] = useState(null);
+  const [searchError, setSearchError] = useState<string | null>(null);
   const pageSize = 10;
 
   // Recompute filtered results whenever filters (including searchCenter) change
@@ -55,9 +57,9 @@ function MapView() {
     setPage(1);
   }, [filters, resources]);
 
-  const handleFilterChange = useCallback((newFilters) => {
-    setFilters(newFilters);
-  }, []);
+  const handleFilterChange = useCallback((newFilters: FilterState) => {
+  setFilters(newFilters);
+}, []);
 
   const handleSearch = useCallback(async () => {
     const query = filters.searchLocation?.trim();
@@ -82,7 +84,7 @@ function MapView() {
     }
   }, [filters.searchLocation]);
 
-  const handleResourceClick = (resourceId) => {
+  const handleResourceClick = (resourceId: string) => {
     navigate(`/service/${resourceId}`, {
       state: {
         mapState: {
@@ -94,9 +96,12 @@ function MapView() {
     });
   };
 
-  const handleViewModeChange = (event, newMode) => {
-    if (newMode !== null) setViewMode(newMode);
-  };
+const handleViewModeChange = (
+  _event: MouseEvent<HTMLElement>,
+  newMode: "list" | "map" | null
+) => {
+  if (newMode !== null) setViewMode(newMode);
+};
 
   const totalPages = Math.max(
     1,
