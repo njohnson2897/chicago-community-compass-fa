@@ -25,7 +25,7 @@ import ResourceList from "../components/ResourceList";
 import FilterPanel from "../components/FilterPanel";
 import { getAllResources } from "../data/foodResourcesService";
 import { filterResources, getDefaultFilters } from "../utils/filterResources";
-import type { FoodResource, FilterState, Coordinates } from "../utils/filterResources";
+import type { FoodResource, FilterState } from "../utils/filterResources";
 import { geocodeSearchQuery } from "../utils/locationUtils";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || "";
