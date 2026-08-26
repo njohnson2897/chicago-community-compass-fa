@@ -84,6 +84,19 @@ Food access was the natural starting point given my background at the Greater Ch
 
 ---
 
+## Backend API
+
+A Node/Express API (in `/server`) serves the resource data.
+
+**Endpoints:**
+- `GET /api/health` — health check
+- `GET /api/resources` — all food resources
+  - `?limit=` — cap the number of results
+  - `?type=` — filter by resource type
+  - `?zip=` — filter by ZIP code
+
+---
+
 ## Local Development
 
 ```bash
