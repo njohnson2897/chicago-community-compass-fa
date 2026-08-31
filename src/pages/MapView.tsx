@@ -15,6 +15,7 @@ import {
   Stack,
   Button,
   Pagination,
+  CircularProgress,
 } from "@mui/material";
 import MapIcon from "@mui/icons-material/Map";
 import ListIcon from "@mui/icons-material/List";
@@ -23,7 +24,7 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import ResourceMap from "../components/ResourceMap";
 import ResourceList from "../components/ResourceList";
 import FilterPanel from "../components/FilterPanel";
-import { getAllResources } from "../data/foodResourcesService";
+import { fetchResources } from "../data/resourcesApi";
 import { filterResources, getDefaultFilters } from "../utils/filterResources";
 import type { FoodResource, FilterState } from "../utils/filterResources";
 import { geocodeSearchQuery } from "../utils/locationUtils";
@@ -39,7 +40,9 @@ function MapView() {
   // Restore map state when returning from Service Details (Back to Resources)
   const savedState = (location.state as { mapState?: { filters?: FilterState; viewMode?: "list" | "map"; page?: number } } | null)?.mapState;
 
-  const [resources] = useState(() => getAllResources());
+  const [resources, setResources] = useState<FoodResource[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [filters, setFilters] = useState(() =>
     savedState?.filters ? savedState.filters : getDefaultFilters(),
   );
@@ -60,6 +63,38 @@ function MapView() {
   const handleFilterChange = useCallback((newFilters: FilterState) => {
   setFilters(newFilters);
 }, []);
+
+  // Fetch resources from the API on mount
+  useEffect(() => {
+    let cancelled = false;
+
+    async function load() {
+      setLoading(true);
+      setLoadError(null);
+      try {
+        const data = await fetchResources();
+        if (!cancelled) {
+          setResources(data);
+        }
+      } catch {
+        if (!cancelled) {
+          setLoadError(
+            "We couldn't load the resource list. Please try again in a moment."
+          );
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    load();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const handleSearch = useCallback(async () => {
     const query = filters.searchLocation?.trim();
@@ -230,6 +265,28 @@ const handleViewModeChange = (
       )}
     </>
   );
+
+    if (loading) {
+    return (
+      <Box>
+        {header}
+        <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
+          <CircularProgress />
+        </Box>
+      </Box>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <Box>
+        {header}
+        <Alert severity="error" sx={{ mt: 2 }}>
+          {loadError}
+        </Alert>
+      </Box>
+    );
+  }
 
   if (isMobile) {
     return (
