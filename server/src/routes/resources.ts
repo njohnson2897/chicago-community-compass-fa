@@ -51,4 +51,15 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/:id", (req, res) => {
+  const resource = allResources.find((r) => r.id === req.params.id);
+
+  if (!resource) {
+    res.status(404).json({ error: "Resource not found" });
+    return;
+  }
+
+  res.json({ data: resource });
+});
+
 export default router;
