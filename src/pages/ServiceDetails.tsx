@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import {
   Box,
@@ -10,6 +10,7 @@ import {
   Chip,
   Stack,
   Link,
+  CircularProgress,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -18,7 +19,9 @@ import EmailIcon from "@mui/icons-material/Email";
 import LanguageIcon from "@mui/icons-material/Language";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
-import { getResourceById, hasHoursToday } from "../data/foodResourcesService";
+import { hasHoursToday } from "../data/foodResourcesService";
+import { fetchResourceById } from "../data/resourcesApi";
+import type { FoodResource } from "../utils/filterResources";
 import { RESOURCE_TYPES } from "../utils/resourceTypes";
 import type { WeeklyHours } from "../utils/filterResources";
 
@@ -74,9 +77,47 @@ function ServiceDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const resource = id ? getResourceById(id) : null;
   const todayKey = getTodayDayKey();
 
+  const [resource, setResource] = useState<FoodResource | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
+
+  // Fetch the resource by id whenever the id changes
+  useEffect(() => {
+    let cancelled = false;
+
+    async function load() {
+      if (!id) {
+        setLoading(false);
+        return;
+      }
+      setLoading(true);
+      setLoadError(null);
+      try {
+        const data = await fetchResourceById(id);
+        if (!cancelled) {
+          setResource(data);
+        }
+      } catch {
+        if (!cancelled) {
+          setLoadError("We couldn't load this pantry. Please try again in a moment.");
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    load();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  // Keep the document title in sync with the loaded resource
   useEffect(() => {
     if (resource?.name) {
       document.title = `${resource.name} | Chicago Community Compass`;
@@ -85,6 +126,30 @@ function ServiceDetails() {
       document.title = "Chicago Community Compass - Food Access";
     };
   }, [resource?.name]);
+
+  if (loading) {
+    return (
+      <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <Box sx={{ textAlign: "center", py: 4 }}>
+        <Typography variant="h6" color="error" gutterBottom>
+          {loadError}
+        </Typography>
+        <Button
+          onClick={() => navigate("/map", { state: location.state })}
+          startIcon={<ArrowBackIcon />}
+        >
+          Back to Resources
+        </Button>
+      </Box>
+    );
+  }
 
   if (!resource) {
     return (
