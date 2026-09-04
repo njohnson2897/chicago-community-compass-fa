@@ -86,7 +86,7 @@ Food access was the natural starting point given my background at the Greater Ch
 
 ## Backend API
 
-A Node/Express API (in `/server`) serves the resource data.
+A Node/Express API (in `/server`) serves normalized resource data. The React frontend fetches from it.
 
 **Endpoints:**
 - `GET /api/health` — health check
@@ -94,12 +94,11 @@ A Node/Express API (in `/server`) serves the resource data.
   - `?limit=` — cap the number of results
   - `?type=` — filter by resource type
   - `?zip=` — filter by ZIP code
+- `GET /api/resources/:id` — a single resource by id
 
----
-
-## Local Development
-
+**Run locally:**
 ```bash
+cd server
 npm install
 npm run dev
 ```
