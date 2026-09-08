@@ -183,17 +183,24 @@ function parseAddress(address: unknown): Address {
 
   const fullAddress = address.trim();
   const regex = /^(.*?),(?:\s*)([A-Za-z\s]+?),(?:\s*)(IL)\s+(\d{5})$/i;
+  const altRegex =
+    /^(.*?)(?:\s+)(Chicago|Skokie|Evanston|Cicero|Berwyn|Oak Park|Maywood|Melrose Park)\s*,?\s*(IL)\s+(\d{5})$/i;
 
   let street = "";
   let city = "";
   let state = "";
   let zip = "";
 
-  const match = fullAddress.match(regex);
+  let match = fullAddress.match(regex);
   if (match) {
     [, street, city, state, zip] = match;
   } else {
-    street = fullAddress;
+    match = fullAddress.match(altRegex);
+    if (match) {
+      [, street, city, state, zip] = match;
+    } else {
+      street = fullAddress;
+    }
   }
 
   return {
