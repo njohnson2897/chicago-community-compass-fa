@@ -174,6 +174,20 @@ describe("sortResources", () => {
     expect(result[2].id).toBe("org-z");
   });
 
+  it("sorts by distance when sortBy is 'distance'", () => {
+    const resources = [
+      makeResourceWithHours({ id: "org-far", name: "Far", distanceMiles: 5 }),
+      makeResourceWithHours({ id: "org-near", name: "Near", distanceMiles: 1 }),
+      makeResourceWithHours({ id: "org-mid", name: "Mid", distanceMiles: 3 }),
+    ];
+
+    const result = sortResources(resources, { sortBy: "distance" });
+
+    expect(result[0].id).toBe("org-near");
+    expect(result[1].id).toBe("org-mid");
+    expect(result[2].id).toBe("org-far");
+  });
+
   it("does not mutate the original array", () => {
     const resources = [
       makeResourceWithHours({ id: "org-z", name: "Zion Pantry" }),

@@ -61,12 +61,19 @@ export function getHoursToday(resource: FoodResource): string | null {
 
 export function sortResources(
   resources: FoodResource[],
-  options: { sortBy?: string } = {}
+  options: { sortBy?: "name" | "distance" } = {}
 ): FoodResource[] {
   const { sortBy = "name" } = options;
   const copy = [...resources];
 
-  if (sortBy === "name") {
+  if (sortBy === "distance") {
+    copy.sort((a, b) => {
+      // Resources without a computed distance sort to the end
+      const aDist = a.distanceMiles ?? Infinity;
+      const bDist = b.distanceMiles ?? Infinity;
+      return aDist - bDist;
+    });
+  } else {
     copy.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
   }
 
