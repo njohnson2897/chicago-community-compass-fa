@@ -22,26 +22,6 @@ function getCurrentDayName(): keyof NonNullable<FoodResource["hours"]> | undefin
 // --- Runtime display helpers ---
 // These operate on already-normalized resources fetched from the API.
 
-export function isOpenNow(resource: FoodResource): boolean {
-  if (!resource?.hours) return false;
-
-  const dayName = getCurrentDayName();
-  if (!dayName) return false;
-
-  const dayHours = resource.hours[dayName];
-  if (!dayHours?.isOpen) return false;
-
-  const now = new Date();
-  const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  const [openHour, openMin] = dayHours.open.split(":").map(Number);
-  const [closeHour, closeMin] = dayHours.close.split(":").map(Number);
-
-  return (
-    currentMinutes >= openHour * 60 + openMin &&
-    currentMinutes <= closeHour * 60 + closeMin
-  );
-}
-
 export function hasHoursToday(resource: FoodResource): boolean {
   if (!resource?.hours) return false;
   const dayName = getCurrentDayName();
