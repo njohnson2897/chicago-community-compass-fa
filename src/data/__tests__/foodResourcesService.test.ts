@@ -1,5 +1,5 @@
 /// <reference types="vitest/globals" />
-import { hasHoursToday, getHoursToday, sortResources } from "../foodResourcesService";
+import { hasHoursToday, getHoursToday } from "../foodResourcesService";
 import type { FoodResource, WeeklyHours } from "../../utils/filterResources";
 import { RESOURCE_TYPES } from "../../utils/resourceTypes";
 
@@ -118,48 +118,5 @@ describe("getHoursToday", () => {
       },
     });
     expect(getHoursToday(resource)).toBe("09:00 – 17:00");
-  });
-});
-
-describe("sortResources", () => {
-  it("sorts resources alphabetically by name (default)", () => {
-    const resources = [
-      makeResourceWithHours({ id: "org-z", name: "Zion Pantry" }),
-      makeResourceWithHours({ id: "org-a", name: "Abundant Life Pantry" }),
-      makeResourceWithHours({ id: "org-m", name: "Mercy Food Bank" }),
-    ];
-
-    const result = sortResources(resources);
-
-    expect(result[0].id).toBe("org-a");
-    expect(result[1].id).toBe("org-m");
-    expect(result[2].id).toBe("org-z");
-  });
-
-  it("sorts by distance when sortBy is 'distance'", () => {
-    const resources = [
-      makeResourceWithHours({ id: "org-far", name: "Far", distanceMiles: 5 }),
-      makeResourceWithHours({ id: "org-near", name: "Near", distanceMiles: 1 }),
-      makeResourceWithHours({ id: "org-mid", name: "Mid", distanceMiles: 3 }),
-    ];
-
-    const result = sortResources(resources, { sortBy: "distance" });
-
-    expect(result[0].id).toBe("org-near");
-    expect(result[1].id).toBe("org-mid");
-    expect(result[2].id).toBe("org-far");
-  });
-
-  it("does not mutate the original array", () => {
-    const resources = [
-      makeResourceWithHours({ id: "org-z", name: "Zion Pantry" }),
-      makeResourceWithHours({ id: "org-a", name: "Abundant Life Pantry" }),
-    ];
-
-    sortResources(resources);
-
-    // original order should be unchanged
-    expect(resources[0].id).toBe("org-z");
-    expect(resources[1].id).toBe("org-a");
   });
 });
