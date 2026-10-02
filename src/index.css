@@ -117,3 +117,21 @@ code {
   color: #5A6B73;
   background: #EDF1F3;
 }
+
+.pantry-map-popup .mapboxgl-popup-close-button {
+  top: 4px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 1;
+  color: #5A6B73;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.pantry-map-popup .mapboxgl-popup-close-button:hover {
+  background: #EDF1F3;
+  color: #1A2B33;
+  /* Mapbox sets a default hover bg; this overrides it to match the theme */
+}
