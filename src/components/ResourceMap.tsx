@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { zoomForRadiusMiles } from "../utils/locationUtils";
+import { hasHoursToday } from "../data/foodResourcesService";
 import { RESOURCE_TYPES } from "../utils/resourceTypes";
 import type { FoodResource, Coordinates } from "../utils/filterResources";
 
@@ -136,6 +137,9 @@ function ResourceMap({
       const id = escapeHtml(resource.id);
       const typeLabel =
         resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "Food Pantry" : "Food Delivery";
+      const openToday = hasHoursToday(resource);
+      const statusClass = openToday ? "is-open" : "is-closed";
+      const statusLabel = openToday ? "Open today" : "Closed today";
 
       const popup = new mapboxgl.Popup({
         offset: 25,
@@ -144,6 +148,7 @@ function ResourceMap({
       }).setHTML(`
           <div class="pantry-popup-inner">
             <span class="pantry-popup-type">${escapeHtml(typeLabel)}</span>
+            <span class="pantry-popup-status ${statusClass}">${statusLabel}</span>
             <h3 class="pantry-popup-name">${name}</h3>
             <p class="pantry-popup-address">${addressLine}</p>
             <button type="button" class="pantry-popup-btn" onclick="window.handleResourceClick('${id}')">
@@ -154,11 +159,11 @@ function ResourceMap({
 
       // Create marker
       const marker = new mapboxgl.Marker({
-        color: resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "#1976d2" : "#dc004e",
+        color: resource.type === RESOURCE_TYPES.FOOD_PANTRY ? "#0B8FC4" : "#455A64",
       })
         .setLngLat([lng, lat])
         .setPopup(popup)
-        .addTo(mapInstance);;
+        .addTo(mapInstance);
 
       // Store reference for cleanup
       markersRef.current.push(marker);

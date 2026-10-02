@@ -47,13 +47,13 @@ code {
 }
 
 .pantry-popup-type {
-  display: inline-block;
+  display: block;
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #0B8FC4;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .pantry-popup-name {
@@ -87,4 +87,33 @@ code {
 
 .pantry-popup-btn:hover {
   background: #086A92;
+}
+
+.pantry-popup-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.pantry-popup-status::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.pantry-popup-status.is-open {
+  color: #1B7A43;
+  background: #E3F4E9;
+}
+
+.pantry-popup-status.is-closed {
+  color: #5A6B73;
+  background: #EDF1F3;
 }
