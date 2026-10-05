@@ -36,5 +36,17 @@ export function getHoursToday(resource: FoodResource): string | null {
   if (!dayName) return null;
   const dayHours = resource.hours[dayName];
   if (!dayHours?.isOpen) return null;
-  return `${dayHours.open} – ${dayHours.close}`;
+  return `${formatTime(dayHours.open)} – ${formatTime(dayHours.close)}`;
+}
+
+export function formatTime(time24: string): string {
+  const [hourStr, minuteStr] = time24.split(":");
+  const hour = parseInt(hourStr, 10);
+  const minute = parseInt(minuteStr, 10);
+  if (isNaN(hour) || isNaN(minute)) return time24; // fall back to raw if unparseable
+
+  const period = hour >= 12 ? "PM" : "AM";
+  const hour12 = hour % 12 === 0 ? 12 : hour % 12;
+  const mm = String(minute).padStart(2, "0");
+  return `${hour12}:${mm} ${period}`;
 }

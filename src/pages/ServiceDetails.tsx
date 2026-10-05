@@ -19,7 +19,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LanguageIcon from "@mui/icons-material/Language";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
-import { hasHoursToday } from "../data/foodResourcesService";
+import { hasHoursToday, formatTime } from "../data/foodResourcesService";
 import { fetchResourceById } from "../data/resourcesApi";
 import type { FoodResource } from "../utils/filterResources";
 import { RESOURCE_TYPES } from "../utils/resourceTypes";
@@ -303,7 +303,7 @@ function ServiceDetails() {
                     const isToday = day === todayKey;
                     const hoursLabel =
                       dayHours && dayHours.isOpen
-                        ? `${dayHours.open} - ${dayHours.close}`
+                        ? `${formatTime(dayHours.open)} - ${formatTime(dayHours.close)}`
                         : "Closed";
 
                     return (
