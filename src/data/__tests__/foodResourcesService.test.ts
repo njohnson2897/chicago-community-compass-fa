@@ -1,5 +1,5 @@
 /// <reference types="vitest/globals" />
-import { hasHoursToday, getHoursToday } from "../foodResourcesService";
+import { hasHoursToday, getHoursToday, formatTime } from "../foodResourcesService";
 import type { FoodResource, WeeklyHours } from "../../utils/filterResources";
 import { RESOURCE_TYPES } from "../../utils/resourceTypes";
 
@@ -117,6 +117,32 @@ describe("getHoursToday", () => {
         sunday: { open: "09:00", close: "17:00", isOpen: true },
       },
     });
-    expect(getHoursToday(resource)).toBe("09:00 – 17:00");
+    expect(getHoursToday(resource)).toBe("9:00 AM – 5:00 PM");
   });
+
+describe("formatTime", () => {
+  it("formats morning times with AM", () => {
+    expect(formatTime("09:00")).toBe("9:00 AM");
+  });
+
+  it("formats afternoon times with PM", () => {
+    expect(formatTime("14:30")).toBe("2:30 PM");
+  });
+
+  it("formats noon as 12:00 PM", () => {
+    expect(formatTime("12:00")).toBe("12:00 PM");
+  });
+
+  it("formats midnight as 12:00 AM", () => {
+    expect(formatTime("00:00")).toBe("12:00 AM");
+  });
+
+  it("preserves minutes with leading zeros", () => {
+    expect(formatTime("08:05")).toBe("8:05 AM");
+  });
+
+  it("returns the raw string when the input can't be parsed", () => {
+    expect(formatTime("not-a-time")).toBe("not-a-time");
+  });
+});
 });
