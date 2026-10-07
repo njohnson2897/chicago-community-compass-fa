@@ -114,6 +114,7 @@ function Layout({ children }: LayoutProps) {
               color="inherit"
               edge="start"
               onClick={handleDrawerToggle}
+              aria-label="Open navigation menu"
               sx={{ mr: 2 }}
             >
               <MenuIcon />
@@ -175,6 +176,7 @@ function Layout({ children }: LayoutProps) {
 
       <Container
         id="main-content"
+        component="main"
         maxWidth="xl"
         sx={{ flex: 1, py: 4 }}
         tabIndex={-1}
