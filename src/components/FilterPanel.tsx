@@ -59,8 +59,10 @@ function FilterPanel({ filters, onFilterChange, onSearch, isSearching }: FilterP
         </Box>
 
         <FormControl size="small" fullWidth>
-          <InputLabel>Within radius</InputLabel>
+          <InputLabel id="radius-select-label">Within radius</InputLabel>
           <Select
+            labelId="radius-select-label"
+            id="radius-select"
             value={filters.radiusMiles ?? 1}
             label="Within radius"
             onChange={(e) =>
