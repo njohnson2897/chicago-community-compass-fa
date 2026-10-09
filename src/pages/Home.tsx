@@ -17,7 +17,7 @@ function Home() {
         <Typography variant="h2" component="h1" gutterBottom>
           Chicago Community Compass
         </Typography>
-        <Typography variant="h5" color="text.secondary" gutterBottom>
+        <Typography variant="h5" component="p" color="text.secondary" gutterBottom>
           Food Access Resources
         </Typography>
         <Typography
@@ -54,7 +54,7 @@ function Home() {
         <Grid item xs={12} md={4}>
           <Paper sx={{ p: 3, height: "100%", textAlign: "center" }}>
             <MapIcon sx={{ fontSize: 48, color: "primary.main", mb: 2 }} />
-            <Typography variant="h6" gutterBottom>
+            <Typography variant="h6" component="h2" gutterBottom>
               Interactive Map
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -67,7 +67,7 @@ function Home() {
             <RestaurantIcon
               sx={{ fontSize: 48, color: "primary.main", mb: 2 }}
             />
-            <Typography variant="h6" gutterBottom>
+            <Typography variant="h6" component="h2" gutterBottom>
               Hours &amp; Contact
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -79,7 +79,7 @@ function Home() {
         <Grid item xs={12} md={4}>
           <Paper sx={{ p: 3, height: "100%", textAlign: "center" }}>
             <InfoIcon sx={{ fontSize: 48, color: "primary.main", mb: 2 }} />
-            <Typography variant="h6" gutterBottom>
+            <Typography variant="h6" component="h2" gutterBottom>
               Filters
             </Typography>
             <Typography variant="body2" color="text.secondary">

@@ -39,7 +39,7 @@ function FilterPanel({ filters, onFilterChange, onSearch, isSearching }: FilterP
 
   return (
     <Box component="form" onSubmit={handleSubmit}>
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h6" component="h2" gutterBottom>
         Search by location
       </Typography>
 
