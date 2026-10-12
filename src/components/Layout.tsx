@@ -107,7 +107,7 @@ function Layout({ children }: LayoutProps) {
       >
         Skip to main content
       </a>
-      <AppBar position="static" elevation={1}>
+      <AppBar position="static" elevation={1} sx={{ bgcolor: "primary.dark" }}>
         <Toolbar>
           {isMobile && (
             <IconButton
