@@ -1,4 +1,4 @@
-import { useState, useEffect, type ReactNode } from "react";
+import { useState, useEffect, Suspense, type ReactNode } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import {
   AppBar,
@@ -13,6 +13,7 @@ import {
   ListItemText,
   IconButton,
   Link,
+  CircularProgress,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
@@ -181,7 +182,15 @@ function Layout({ children }: LayoutProps) {
         sx={{ flex: 1, py: 4 }}
         tabIndex={-1}
       >
-        {children}
+        <Suspense
+          fallback={
+            <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
+              <CircularProgress />
+            </Box>
+          }
+        >
+          {children}
+        </Suspense>
       </Container>
 
       <Box
